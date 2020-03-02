@@ -1,20 +1,20 @@
 ---
-description: このリファレンスでは、Auditorがタグの一貫性を確保するために実行するテストに関する詳細を説明します。
-seo-description: このリファレンスでは、Auditorがタグの一貫性を確保するために実行するテストに関する詳細を説明します。
-seo-title: タグの一貫性
-title: タグの一貫性
+description: このリファレンスでは、Auditor がタグの整合性を確認するために実行するテストの詳細を説明します。
+seo-description: このリファレンスでは、Auditor がタグの整合性を確認するために実行するテストの詳細を説明します。
+seo-title: タグの整合性
+title: タグの整合性
 uuid: 16271dd6-3587-4f33-92f8-54ec4a3d6469
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
 
 ---
 
 
-# タグの一貫性
+# タグの整合性
 
-このリファレンスでは、Auditorがタグの一貫性を確保するために実行するテストに関する詳細を説明します。
+このリファレンスでは、Auditor がタグの整合性を確認するために実行するテストの詳細を説明します。
 
-Auditorの整合性テストでは、スキャンされたすべてのページに一貫性がないかどうかを確認します。 これらは、正確なデータ収集を行うために、サイト上のすべてのページで同じ値または設定にする必要がある値です。
+Auditor の整合性テストでは、スキャンされたすべてのページで矛盾を探します。これらの値や設定は、正確なデータ収集をおこなうために、サイト上のすべてのページで同じにする必要があります。
 
 <table id="table_4F9ED873BAF741D19BFB0F297B3A1FDB"> 
  <thead> 
@@ -29,9 +29,9 @@ Auditorの整合性テストでは、スキャンされたすべてのページ�
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Analytics — 一貫したコードバージョン </b> </p> <p>重み：5 </p> <p><a href="https://docs.adobe.com/content/help/en/analytics/implementation/choose-implementation-method.html" format="html" scope="external"> 追加情報</a> </p> </td> 
-   <td colname="col2"> <p> 複数のバージョンのAnalyticsコードが見つかりました。 </p> </td> 
-   <td colname="col3"> <p>Analyticsのすべてのインスタンスを現在のバージョンに置き換えます。 </p> </td> 
+    </draft-comment> <p><b>Analytics - コードバージョンが一貫している</b> </p> <p>重み付け：5 </p> <p><a href="https://docs.adobe.com/content/help/en/analytics/implementation/choose-implementation-method.html" format="html" scope="external"> 追加情報</a> </p> </td> 
+   <td colname="col2"> <p> 複数のバージョンの Analytics コードが見つかりました。 </p> </td> 
+   <td colname="col3"> <p>Analytics のすべてのインスタンスを最新のバージョンに置き換えてください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
