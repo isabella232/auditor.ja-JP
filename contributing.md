@@ -1,6 +1,6 @@
 ---
 source-git-commit: 525ab6768a5f4e3af5dfe751bd0669bf92954f92
-translation-type: tm+mt
+translation-type: ht
 
 ---
 # コントリビューション
@@ -23,7 +23,7 @@ translation-type: tm+mt
 
 ## コードのレビュー
 
-提案はすべてプルリクエストの形式でおこなわれ、プロジェクトのコミッターによってレビューされる必要があります。プルリクエストの送信方法については、[GitHub のプルリクエストに関するドキュメント](https://help.github.com/articles/about-pull-requests/)を参照してください。
+提案はすべてプルリクエストの形式でおこなわれ、プロジェクトのコミッターによってレビューされる必要があります。プルリクエストの送信方法については、[GitHub のプルリクエストに関するドキュメント](https://help.github.com/ja/github/collaborating-with-issues-and-pull-requests/about-pull-requests)を参照してください。
 
 <!--
 Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
@@ -36,4 +36,4 @@ submitting a pull request!
 
 ## セキュリティ上の問題
 
-セキュリティ上の問題はこのイシュートラッカーに報告しないでください。代わりに、[セキュリティ専門家に問題を報告します。](https://helpx.adobe.com/security/alertus.html)
+セキュリティ上の問題はこのイシュートラッカーに報告しないでください。代わりに、[セキュリティ専門家に問題を報告します。](https://helpx.adobe.com/jp/security/alertus.html)
