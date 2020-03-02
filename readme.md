@@ -1,21 +1,21 @@
 ---
 source-git-commit: cd2b8452627969f42c27d4679a09abf4c7abc993
-translation-type: tm+mt
+translation-type: ht
 
 ---
-# 記事のコントリビューション
+# 記事の投稿
 
-アドビのコミュニティや、ドキュメントチーム外部のアドビ従業員からのコントリビューションをお待ちしています。
+アドビのコミュニティや、ドキュメントチーム外部のアドビ従業員からの投稿をお待ちしています。
 
 ## Adobe Open Source Code of Practice
 
-このプロジェクトでは、[Adobe Open Source Code of Actions](code-of-conduct.md)または. NET Foundation [Codeの実施を採用してい](https://dotnetfoundation.org/code-of-conduct)ます。詳しくは[、貢献度の高い](contributing.md)記事を参照してください。
+このプロジェクトでは、[Adobe Open Source Code of Actions](code-of-conduct.md)または. NET Foundation [Codeの実施を採用してい](https://dotnetfoundation.org/code-of-conduct)ます。詳しくは、[投稿](contributing.md)の記事を参照してください。
 
-## Adobeコンテンツへの貢献事項について
+## アドビのコンテンツへの投稿について
 
-「 [Adobe Docs寄稿者ガイド](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html)」を参照してください。
+「[Adobe Docs寄稿者ガイド](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html)」を参照してください。
 
-どのような貢献度が貢献しているか、およびどのように貢献したいかによって異なります。
+投稿方法は、誰がどのような変更を投稿するかに応じて異なります。
 
 ### マイナーな変更
 
