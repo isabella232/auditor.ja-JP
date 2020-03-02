@@ -9,7 +9,7 @@ tutorials-title: チュートリアル
 tutorials-url: https://helpx.adobe.com/jp/analytics/how-to/adobe-launch-publishing-process.html
 git-repo: https://github.com/AdobeDocs/auditor.en
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c62a63606325b7b4fea6fb5413bd0297326ad824
 
 ---
