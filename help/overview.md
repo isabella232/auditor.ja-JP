@@ -4,15 +4,15 @@ seo-description: Adobe Experience Platform Auditor の技術ドキュメント�
 seo-title: 'Adobe Experience Platform Auditor の技術ドキュメント。 '
 title: Adobe Experience Platform Auditor の概要 - 技術ドキュメント
 uuid: 346132cb-d78d-4573-8edd-dbaa4c3bb05d
-translation-type: ht
-source-git-commit: 35902c30e578980d9675723a874af6da8d7e6a65
+translation-type: tm+mt
+source-git-commit: 8a35e0c6b3c8ad6d38c02e85b4477e1e1d0f7bbb
 
 ---
 
 
 # Adobe Experience Platform Auditor の概要 {#adobe-experience-cloud-auditor}
 
-Adobe Experience Platform Auditor は、デジタル実装の検証を専門とする [ObservePoint](https://www.observepoint.com/) と共同開発された、Adobe Experience Platform のサービスです。このガイドには、Auditor の技術ドキュメントとセルフヘルプが含まれています。
+Adobe Experience Platform Auditor は、デジタル実装の検証を専門とする [ObservePoint](https://www.observepoint.com/) と共同開発された、Adobe Experience Platform のサービスです。このガイドには、Auditorの技術ドキュメントとセルフヘルプが含まれています。
 
 Auditor では、Adobe Experience Cloud のユーザーは、Adobe Experience Cloud の実装を評価し、改善方法を指摘するレポートを受け取ります。Auditor は、アドビ製品単体で、または複数のアドビ製品をまとめてさらに活用できるよう支援します。
 
