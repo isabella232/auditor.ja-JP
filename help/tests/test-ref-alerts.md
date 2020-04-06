@@ -4,8 +4,8 @@ seo-description: このリファレンスでは、Auditor のテストで表示�
 seo-title: アラート
 title: アラート
 uuid: 8f05b3c1-2427-4691-a88f-1de98f120a02
-translation-type: ht
-source-git-commit: 762ff31ca4d5ed69d1b813589e419c51a40d5920
+translation-type: tm+mt
+source-git-commit: 78105ff6766f48f3aaccfeda281e5b4883be856a
 
 ---
 
@@ -77,7 +77,7 @@ source-git-commit: 762ff31ca4d5ed69d1b813589e419c51a40d5920
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>DTM - 自己ホストされている</b> </p> <p>重み付け：0 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/ja_JP/dtm/deployment.html" format="html" scope="external">追加情報</a> </p> </td> 
+    </draft-comment> <p><b>DTM - 自己ホストされている</b> </p> <p>重み付け：0 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/dtm/using/client-side/client-side-information.html" format="html" scope="external">追加情報</a> </p> </td> 
    <td colname="col2"> <p> DTM ライブラリは、アドビの Akamai インスタンス上（<span class="filepath">assets.adobedtm.com</span>）でホストされています。 </p> <p> DTM の読み込みには、キャッシュ制御を通じた Web サイトのパフォーマンスの制御、サードパーティスクリプトの依存関係の軽減、および公開プロセスの制御の向上を提供する自己ホスト型アプローチが推奨されます。DTM ライブラリは、お客様自身の Web ホスティングまたは CDN を使用してホストおよび管理できます。 </p> </td> 
    <td colname="col3"> <p>ページに DTM を読み込む場合は、自己ホスト型アプローチを推奨します。Akamai CDN 経由の DTM ホスティングはほとんどの場合において機能しますが、自己ホスティングを使用すると、ページのパフォーマンスが向上します。 </p> </td> 
   </tr> 
@@ -85,7 +85,7 @@ source-git-commit: 762ff31ca4d5ed69d1b813589e419c51a40d5920
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Experience Cloud ID サービス - 1 つの AdobeOrg のみを使用する</b> </p> <p>重み付け：0 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/ja_JP/mcvid/mcvid_id_request.html" format="html" scope="external">追加情報</a> </p> </td> 
+    </draft-comment> <p><b>Experience Cloud ID サービス - 1 つの AdobeOrg のみを使用する</b> </p> <p>重み付け：0 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/id-service/using/intro/id-request.html" format="html" scope="external">追加情報</a> </p> </td> 
    <td colname="col2"> <p>通常の MCID 実装では、単一の AdobeOrg を使用する必要があります。 </p> </td> 
    <td colname="col3"> <p>この実装に複数の AdobeOrg ID が存在することを検証します。 </p> </td> 
   </tr> 
@@ -93,7 +93,7 @@ source-git-commit: 762ff31ca4d5ed69d1b813589e419c51a40d5920
    <td colname="col1"> 
     <draft-comment>
       1.0.5 
-    </draft-comment> <p><b>Launch - pageBottom コールバックの配置</b> </p> <p>重み付け：0 </p> <p><a href="https://docs.adobelaunch.com/getting-started" format="https" scope="external">追加情報</a> </p> 
+    </draft-comment> <p><b>Launch - pageBottom コールバックの配置</b> </p> <p>重み付け：0 </p> <p><a href="https://adobe.com/go/launch_help_get_started" format="https" scope="external">追加情報</a> </p> 
     <draft-comment>
       TE48c499b022f545c5bccc6f8bde169685 
     </draft-comment> </td> 
@@ -104,7 +104,7 @@ source-git-commit: 762ff31ca4d5ed69d1b813589e419c51a40d5920
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Launch - 自己ホストされている</b> </p> <p>重み付け：0 </p> <p><a href="https://docs.adobelaunch.com/getting-started" format="https" scope="external">Launch 使用の手引き</a> </p> <p><a href="https://docs.adobelaunch.com/client-side-information/asynchronous-deployment" format="https" scope="external">Launch の非同期デプロイメント</a> </p> </td> 
+    </draft-comment> <p><b>Launch - 自己ホストされている</b> </p> <p>重み付け：0 </p> <p><a href="https://adobe.com/go/launch_help_get_started" format="https" scope="external">Launch 使用の手引き</a> </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/launch/using/reference/client-side-info/asynchronous-deployment.html" format="https" scope="external">Launch の非同期デプロイメント</a> </p> </td> 
    <td colname="col2"> <p>Launch ライブラリは、アドビの Akamai インスタンス上（<span class="filepath"> assets.adobedtm.com</span>）でホストされています。 </p> <p>Launch の読み込みには、キャッシュ制御を通じた Web サイトのパフォーマンスの制御、サードパーティスクリプトの依存関係の軽減、および公開プロセスの制御の向上を提供する自己ホスト型アプローチが推奨されます。Launch ライブラリは、お客様自身の Web ホスティングまたは CDN を使用してホストおよび管理できます。 </p> </td> 
    <td colname="col3"> <p>Akamai CDN 経由の Launch ホスティングはほとんどの場合において機能しますが、最初のステップとして自己ホスティングを使用すると、ページのパフォーマンスが向上します。 </p> </td> 
   </tr> 
@@ -112,7 +112,7 @@ source-git-commit: 762ff31ca4d5ed69d1b813589e419c51a40d5920
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Launch - 非同期的にデプロイする必要がある</b> </p> <p>重み付け：0 </p> <p><a href="https://docs.adobelaunch.com/getting-started" format="https" scope="external">追加情報</a> </p> </td> 
+    </draft-comment> <p><b>Launch - 非同期的にデプロイする必要がある</b> </p> <p>重み付け：0 </p> <p><a href="https://adobe.com/go/launch_help_get_started" format="https" scope="external">追加情報</a> </p> </td> 
    <td colname="col2"> <p>最適なパフォーマンスを得るには、Launch を非同期的にデプロイする必要があります。 </p> </td> 
    <td colname="col3"> <p>非同期的な Launch 機能が正しく動作するように、インラインスクリプトに async パラメーターを含めます </p> </td> 
   </tr> 
@@ -120,7 +120,7 @@ source-git-commit: 762ff31ca4d5ed69d1b813589e419c51a40d5920
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Target - mboxDefault 内のコンテンツ</b> </p> <p>重み付け：0 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/en_US/target/ov2/r_target-atjs-mboxcreate.html" format="html" scope="external">追加情報</a> </p> </td> 
+    </draft-comment> <p><b>Target - mboxDefault 内のコンテンツ</b> </p> <p>重み付け：0 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/target/using/implement-target/implementing-target.html" format="html" scope="external">追加情報</a> </p> </td> 
    <td colname="col2"> <p> at.js を使用する場合は、mboxDefault 内にコンテンツが存在する必要があります。 </p> </td> 
    <td colname="col3"> <p>コンテンツが使用可能であることを確認します。 </p> </td> 
   </tr> 
