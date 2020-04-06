@@ -4,8 +4,8 @@ seo-description: このリファレンスでは、Auditor がタグの有無を�
 seo-title: タグの有無
 title: タグの有無
 uuid: 91aa355b-7022-431c-9837-e108b5ce604d
-translation-type: ht
-source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
+translation-type: tm+mt
+source-git-commit: 78105ff6766f48f3aaccfeda281e5b4883be856a
 
 ---
 
@@ -36,7 +36,7 @@ Auditor はタグの有無、およびタグがページコード内の適切な
    <td colname="col3"> <p>Advertising Cloud Launch の拡張機能を使用して、Advertising Cloud セグメントピクセルを実装します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Analytics - DOM に読み込まれている</b> </p> <p>重み付け：5 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/ja_JP/sc/implement/" format="https" scope="external">追加情報</a> </p> </td> 
+   <td colname="col1"> <p><b>Analytics - DOM に読み込まれている</b> </p> <p>重み付け：5 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/analytics/implementation/home.html" format="https" scope="external">追加情報</a> </p> </td> 
    <td colname="col2"> <p> Adobe Analytics タグが検出されませんでした。 </p> </td> 
    <td colname="col3"> <p>最新バージョンの Analytics をインストールしてください。 </p> </td> 
   </tr> 
