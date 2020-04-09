@@ -4,7 +4,7 @@ seo-description: このリファレンスでは、Auditor のテストで表示�
 seo-title: アラート
 title: アラート
 uuid: 8f05b3c1-2427-4691-a88f-1de98f120a02
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 78105ff6766f48f3aaccfeda281e5b4883be856a
 
 ---
@@ -48,9 +48,9 @@ source-git-commit: 78105ff6766f48f3aaccfeda281e5b4883be856a
     </draft-comment> <p><b>Advertising Cloud - 画像専用タグ</b> </p> <p>重み付け：0 </p> </td> 
    <td colname="col2"> <p>Advertising Cloud の画像ピクセル形式は、次の推奨形式のいずれかと一致する必要があります。 </p> <p> 
      <ul id="ul_D85BE9C8A8654DE890E1A814E3573D86"> 
-      <li id="li_E2AEDD76AC7044E8AD6AE8375858D198"> <p><span class="codeph"> http(s)://rtd.tubemogul.com/upi/?sid=&lt;HASH_VALUE&gt;</span> </p> </li> 
-      <li id="li_1EEFA03516BF445294B5EC5DED891758"> <p><span class="codeph"> http(s)://rtd-tm.everesttech.net/upi/?sid=&lt;HASH_VALUE&gt;</span> </p> </li> 
-      <li id="li_F72206B142214217BDD34356D2F3D8AD"> <p><span class="codeph"> http(s)://pixel.everesttech.net/px2/&lt;NUMERIC_ID&gt;?</span> </p> </li> 
+      <li id="li_E2AEDD76AC7044E8AD6AE8375858D198"> <p><span class="codeph">http(s)://rtd.tubemogul.com/upi/?sid=&lt;HASH_VALUE&gt;</span> </p> </li> 
+      <li id="li_1EEFA03516BF445294B5EC5DED891758"> <p><span class="codeph">http(s)://rtd-tm.everesttech.net/upi/?sid=&lt;HASH_VALUE&gt;</span> </p> </li> 
+      <li id="li_F72206B142214217BDD34356D2F3D8AD"> <p><span class="codeph">http(s)://pixel.everesttech.net/px2/&lt;NUMERIC_ID&gt;?</span> </p> </li> 
      </ul> </p> </td> 
    <td colname="col3"> <p>Advertising Cloud の全機能を活用できるよう、Advertising Cloud のピクセルを新しい Advertising Cloud の画像専用タグにアップグレードします。 </p> <p>Advertising Cloud Launch 拡張機能を使用すると、最も容易にこれを実施できます。 </p> </td> 
   </tr> 
@@ -93,7 +93,7 @@ source-git-commit: 78105ff6766f48f3aaccfeda281e5b4883be856a
    <td colname="col1"> 
     <draft-comment>
       1.0.5 
-    </draft-comment> <p><b>Launch - pageBottom コールバックの配置</b> </p> <p>重み付け：0 </p> <p><a href="https://adobe.com/go/launch_help_get_started" format="https" scope="external">追加情報</a> </p> 
+    </draft-comment> <p><b>Launch - pageBottom コールバックの配置</b> </p> <p>重み付け：0 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/launch/using/intro/get-started/quick-start.html" format="https" scope="external">追加情報</a> </p> 
     <draft-comment>
       TE48c499b022f545c5bccc6f8bde169685 
     </draft-comment> </td> 
@@ -104,7 +104,7 @@ source-git-commit: 78105ff6766f48f3aaccfeda281e5b4883be856a
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Launch - 自己ホストされている</b> </p> <p>重み付け：0 </p> <p><a href="https://adobe.com/go/launch_help_get_started" format="https" scope="external">Launch 使用の手引き</a> </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/launch/using/reference/client-side-info/asynchronous-deployment.html" format="https" scope="external">Launch の非同期デプロイメント</a> </p> </td> 
+    </draft-comment> <p><b>Launch - 自己ホストされている</b> </p> <p>重み付け：0 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/launch/using/intro/get-started/quick-start.html" format="https" scope="external">Launch 使用の手引き</a> </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/launch/using/reference/client-side-info/asynchronous-deployment.html" format="https" scope="external">Launch の非同期デプロイメント</a> </p> </td> 
    <td colname="col2"> <p>Launch ライブラリは、アドビの Akamai インスタンス上（<span class="filepath"> assets.adobedtm.com</span>）でホストされています。 </p> <p>Launch の読み込みには、キャッシュ制御を通じた Web サイトのパフォーマンスの制御、サードパーティスクリプトの依存関係の軽減、および公開プロセスの制御の向上を提供する自己ホスト型アプローチが推奨されます。Launch ライブラリは、お客様自身の Web ホスティングまたは CDN を使用してホストおよび管理できます。 </p> </td> 
    <td colname="col3"> <p>Akamai CDN 経由の Launch ホスティングはほとんどの場合において機能しますが、最初のステップとして自己ホスティングを使用すると、ページのパフォーマンスが向上します。 </p> </td> 
   </tr> 
@@ -112,7 +112,7 @@ source-git-commit: 78105ff6766f48f3aaccfeda281e5b4883be856a
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Launch - 非同期的にデプロイする必要がある</b> </p> <p>重み付け：0 </p> <p><a href="https://adobe.com/go/launch_help_get_started" format="https" scope="external">追加情報</a> </p> </td> 
+    </draft-comment> <p><b>Launch - 非同期的にデプロイする必要がある</b> </p> <p>重み付け：0 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/launch/using/intro/get-started/quick-start.html" format="https" scope="external">追加情報</a> </p> </td> 
    <td colname="col2"> <p>最適なパフォーマンスを得るには、Launch を非同期的にデプロイする必要があります。 </p> </td> 
    <td colname="col3"> <p>非同期的な Launch 機能が正しく動作するように、インラインスクリプトに async パラメーターを含めます </p> </td> 
   </tr> 
