@@ -1,11 +1,14 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: AuditorFAQ
+seo-title: Auditor についての FAQ
 title: Auditor についての FAQ
 uuid: 4db0781a-b288-4ec2-97ff-410a8241a61d
-translation-type: ht
-source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
+translation-type: tm+mt
+source-git-commit: 631656ed4442f7f0083b1c99a725328a1c51ff9f
+workflow-type: tm+mt
+source-wordcount: '938'
+ht-degree: 97%
 
 ---
 
@@ -23,7 +26,7 @@ source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
 * [レポートにはどのような情報が表示されますか。](auditor-faq.md#section-752d6b82f6744a3182c4ce16ea6b5d3f)
 * [その情報はどの程度実用的ですか。](auditor-faq.md#section-9308c1ea882048b781087ae6d2eee9f0)
 * [Auditor はアドビ以外のテクノロジーを監査できますか。](auditor-faq.md#section-f6e73c56083b4815bbf901296038bcd4)
-* [IP アドレスをホワイトリストに登録してページのスキャンを許可することはできますか...](auditor-faq.md#section-011e4f54c58140ffb93bedeb0745b6cc)
+* [自分のIPアドレスを承認して、ページのスキャンを許可できますか。](auditor-faq.md#section-011e4f54c58140ffb93bedeb0745b6cc)
 * [Auditor は ObservePoint と同じ IP 範囲を使用しますか。](auditor-faq.md#section-39512b156e194787981bdd572ff5b5a9)
 
 ## Auditor とは {#section-c4a9bc8d8eef41598c27e0951a2518e4}
@@ -126,7 +129,7 @@ Auditor を通じて提供される推奨事項は、DTM や Target などの Ad
 
 いいえ。ただし、ObservePoint のフル機能を使用すると、すべてのマーケティングタグとテクノロジーを監査および監視できます。アドビのお客様は、無料の体験版アカウントをご利用いただけます。体験版アカウントにアクセスするには、[ObservePoint の Auditor ページ](https://www.observepoint.com/adobe-auditor/?utm_source=Adobe&amp;utm_medium=Auditor&amp;utm_campaign=Premium)を参照してください。
 
-## IP アドレスをホワイトリストに登録して、ログインで保護されたページのスキャンを許可することはできますか。 {#section-011e4f54c58140ffb93bedeb0745b6cc}
+## Can I approve my IP addresses to allow scanning pages that are protected by a login? {#section-011e4f54c58140ffb93bedeb0745b6cc}
 
 この機能は現在、完全な ObservePoint 製品を使用していない限り、サポートされていません。
 
