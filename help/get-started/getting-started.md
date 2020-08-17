@@ -4,8 +4,11 @@ seo-description: Auditor の概要
 seo-title: はじめに
 title: はじめに
 uuid: 999e0142-5a64-4202-ae09-58d22438ded7
-translation-type: ht
-source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
+translation-type: tm+mt
+source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+workflow-type: tm+mt
+source-wordcount: '239'
+ht-degree: 100%
 
 ---
 
@@ -40,14 +43,14 @@ Auditor を初めて使用する場合は、Auditor の使用許諾契約に入�
 
 1. スキャンを設定します。
 
-   監査に名前を付け、開始 URL を指定して、**[!UICONTROL Run Report]** をクリックします。スキャンが管理用したら、電子メール通知を受け取ります。
+   監査に名前を付け、開始 URL を指定して、**[!UICONTROL Run Report]** をクリックします。スキャンが完了したら、電子メール通知を受け取ります。
 
    ![](assets/config.png)
 
-   すべての設定オプションの説明は、[新しい監査の作成](../create-audit/create-new-audit.md#task-6d157f80e5264642b877c2820b1d077d)を参照してください。
+   すべての設定オプションの説明は、[新しい監査の作成](../create-audit/create-new-audit.md)を参照してください。
 1. レポートを表示します。
 
-   スキャンが完了したことを知らせる電子メールを受け取ったら、リンクをクリックして[レポートを表示](../reports/scorecard.md#concept-8958a64346c34f74844553dda1ccf869)し、実装を改善してアドビのソリューションを最大限活用するための機会について理解します。
+   スキャンが完了したことを知らせる電子メールを受け取ったら、リンクをクリックして[レポートを表示](../reports/scorecard.md)し、実装を改善してアドビのソリューションを最大限活用するための機会について理解します。
 
    また、[Auditor ページ](../get-started/audit-list.md)で監査の名前をクリックして、監査のステータスを確認したり、監査の完了後にレポートを表示したりできます。
 
