@@ -4,8 +4,11 @@ seo-description: 'null'
 seo-title: テストルーブリック 0.0.8
 title: テストルーブリック 0.0.8
 uuid: c62b7169-a650-4650-876f-c254eb57cb25
-translation-type: ht
-source-git-commit: b56d3d2bd79c812fda6a75827d14044d9a8a3b4c
+translation-type: tm+mt
+source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+workflow-type: tm+mt
+source-wordcount: '1988'
+ht-degree: 100%
 
 ---
 
@@ -42,9 +45,9 @@ source-git-commit: b56d3d2bd79c812fda6a75827d14044d9a8a3b4c
     <td colname="col1"> <p><b>Advertising Cloud - 画像専用タグ</b> </p> <p>重み付け：0 </p> </td> 
     <td colname="col2"> <p>Advertising Cloud の画像ピクセル形式は、次の推奨形式のいずれかと一致する必要があります。 </p> <p> 
       <ul id="ul_D85BE9C8A8654DE890E1A814E3573D86"> 
-       <li id="li_E2AEDD76AC7044E8AD6AE8375858D198"> <p><span class="codeph"> http(s)://rtd.tubemogul.com/upi/?sid=&lt;HASH_VALUE&gt;</span> </p> </li> 
-       <li id="li_1EEFA03516BF445294B5EC5DED891758"> <p><span class="codeph"> http(s)://rtd-tm.everesttech.net/upi/?sid=&lt;HASH_VALUE&gt;</span> </p> </li> 
-       <li id="li_F72206B142214217BDD34356D2F3D8AD"> <p><span class="codeph"> http(s)://pixel.everesttech.net/px2/&lt;NUMERIC_ID&gt;?</span> </p> </li> 
+       <li id="li_E2AEDD76AC7044E8AD6AE8375858D198"> <p><span class="codeph">http(s)://rtd.tubemogul.com/upi/?sid=&lt;HASH_VALUE&gt;</span> </p> </li> 
+       <li id="li_1EEFA03516BF445294B5EC5DED891758"> <p><span class="codeph">http(s)://rtd-tm.everesttech.net/upi/?sid=&lt;HASH_VALUE&gt;</span> </p> </li> 
+       <li id="li_F72206B142214217BDD34356D2F3D8AD"> <p><span class="codeph">http(s)://pixel.everesttech.net/px2/&lt;NUMERIC_ID&gt;?</span> </p> </li> 
       </ul> </p> </td> 
     <td colname="col3"> <p>Advertising Cloud の全機能を活用できるよう、Advertising Cloud のピクセルを新しい Advertising Cloud の画像専用タグにアップグレードします。 </p> <p>Advertising Cloud Launch 拡張機能を使用すると、最も容易にこれを実施できます。 </p> </td> 
    </tr> 
@@ -98,12 +101,12 @@ Auditor は、タグを他のルールおよび推奨ベストプラクティス
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>Advertising Cloud - コンバージョン名は URL で使用できる文字のみを使用している</b> </p> <p>重み付け：3 </p> </td> 
-    <td colname="col2"> <p> コンバージョンプロパティ名に、アンパサンドや疑問符を含めることはできません。 </p> <p> 例： </p> <p><span class="codeph"> http://pixel.everesttech.net/1180/t?ev_revenue&amp;order=12&amp;ev_transid=</span> </p> </td> 
+    <td colname="col2"> <p> コンバージョンプロパティ名に、アンパサンドや疑問符を含めることはできません。 </p> <p> 例： </p> <p><span class="codeph">http://pixel.everesttech.net/1180/t?ev_revenue&amp;order=12&amp;ev_transid=</span> </p> </td> 
     <td colname="col3"> <p>トランザクションプロパティのパラメーターに、エンコードされていないアンパサンドや疑問符が含まれていないことを確認してください。これらがあると、URL 形式が壊れます。 </p> <p> <p>警告：プロパティパラメーターにエンコードされていないアンパサンドまたは疑問符（例：<span class="codeph"> ev_formComplete?=1</span> または <span class="codeph"> ev_formComplete&amp;Submit=1</span>）が含まれる場合、データが失われる可能性があります。 </p> </p> </td> 
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>Advertising Cloud - トランザクション ID が正しく実装されている</b> </p> <p>重み付け：1 </p> </td> 
-    <td colname="col2"> <p> プロパティ名 <span class="codeph"> ev_transid=</span> を空にすることはできません。 </p> <p>例： </p> <p><span class="codeph"> http://pixel.everesttech.net/1180/t?ev_page_load=1&amp;ev_revenue= 12&amp; ev_transid=</span> </p> </td> 
+    <td colname="col2"> <p> プロパティ名 <span class="codeph"> ev_transid=</span> を空にすることはできません。 </p> <p>例： </p> <p><span class="codeph">http://pixel.everesttech.net/1180/t?ev_page_load=1&amp;ev_revenue= 12&amp; ev_transid=</span> </p> </td> 
     <td colname="col3"> <p>プロパティ名 <span class="codeph"> ev_transid=</span> には、値（<span class="codeph"> ev_transid=</span>）を含める必要があります。値が指定されていない場合、トランザクションデータが失われる可能性があります。<span class="codeph"> ev_transid=</span> に値を割り当てるか、ピクセルからパラメーターを削除します。 </p> </td> 
    </tr> 
    <tr> 
@@ -117,7 +120,7 @@ Auditor は、タグを他のルールおよび推奨ベストプラクティス
     <td colname="col3"> <p>ページ上の Analytics タグが 1 つだけであることを確認します。 </p> </td> 
    </tr> 
    <tr> 
-    <td colname="col1"> <p><b>Analytics - 最新バージョン</b> </p> <p>重み付け：3 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/en_US/sc/appmeasurement/release" format="https" scope="external">追加情報</a> </p> </td> 
+    <td colname="col1"> <p><b>Analytics - 最新バージョン</b> </p> <p>重み付け：3 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/analytics/implementation/appmeasurement-updates.html" format="https" scope="external">追加情報</a> </p> </td> 
     <td colname="col2"> <p> ページで Analytics コードライブラリの最新バージョンが実行されていません。Experience Cloud テクノロジーの土台となるコードライブラリは、パフォーマンスの向上を活用し、最新の機能を提供できるよう、常に更新および調整されています。Web ページで解析コードが見つからない場合は、0 を返します。 </p> </td>       
     <td colname="col3"> <p>最新バージョンの Analytics ライブラリをインストールしてください。 </p> </td> 
    </tr> 
@@ -143,7 +146,7 @@ Auditor は、タグを他のルールおよび推奨ベストプラクティス
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>Target - mboxDefault は mboxCreate よりも優先される</b> </p> <p>重み付け：5 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/target/using/implement-target/client-side/functions-overview/mboxcreate-atjs.html" format="html" scope="external">追加情報</a> </p> </td> 
-    <td colname="col2"> <p><span class="codeph"> mboxCreate</span> の適切な使用方法は次のようになります。 </p> <p> <span class="codeph">&lt;div class="mboxDefault"&gt;&lt;! -顧客コンテンツ--&gt;&lt;/div&gt;&lt;script&gt;mboxCreate('myMboxName')&lt;/script&gt;</span> </p> </td> 
+    <td colname="col2"> <p><span class="codeph"> mboxCreate</span> の適切な使用方法は次のようになります。 </p> <p> <span class="codeph"> &lt;div class="mboxDefault"&gt;&lt;!-顧客コンテンツ--&gt;&lt;/div&gt;&lt;script&gt;mboxCreate('myMboxName')&lt;/script&gt;</span> </p> </td> 
     <td colname="col3"> <p><span class="codeph"> mboxCreate()</span> を呼び出す前に、必ず<span class="codeph"> &lt;div class="mboxDefault"&gt;&lt;/div&gt;</span> タグを含めてください。at.js による追加はおこなわれません。 </p> </td> 
    </tr> 
    <tr> 
@@ -172,7 +175,7 @@ Auditor は、URL をまたいでタグの整合性を評価します。
   </thead>
   <tbody> 
    <tr> 
-    <td colname="col1"> <p><b>Analytics - コードバージョンが一貫している</b> </p> <p>重み付け：5 </p> <p><a href="https://docs.adobe.com/content/help/en/analytics/implementation/choose-implementation-method.html" format="html" scope="external">追加情報</a> </p> </td> 
+    <td colname="col1"> <p><b>Analytics - コードバージョンが一貫している</b> </p> <p>重み付け：5 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/analytics/implementation/home.html" format="html" scope="external">追加情報</a> </p> </td> 
     <td colname="col2"> <p> 複数のバージョンの Analytics コードが見つかりました。 </p> </td> 
     <td colname="col3"> <p>Analytics のすべてのインスタンスを最新のバージョンに置き換えてください。 </p> </td> 
    </tr> 
@@ -215,7 +218,7 @@ Auditor では、タグの有無、およびタグがページコード内の適
     <td colname="col1"> <p><b>DTM - ライブラリが読み込まれている</b> </p> <p>重み付け：5 </p> <p>追加情報: </p> <p> 
       <ul id="ul_7E706EBC2E4649A69732E6982E116E22"> 
        <li id="li_9AF0257E39C347A9AE6D8D8FFBD66B38"><a href="https://docs.adobe.com/content/help/ja-JP/dtm/using/admin/c-troubleshooting.html" format="html" scope="external">DTM のトラブルシューティング</a> </li> 
-       <li id="li_7B422BCCD2654B0A9059799FB5276BE8"><a href="https://docs.adobe.com/content/help/ja-JP/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external">ヘッダーおよびフッターコードの追加</a> </li> 
+       <li id="li_7B422BCCD2654B0A9059799FB5276BE8"><a href="https://docs.adobe.com/content/help/ja-JP/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external"> ヘッダーおよびフッターコードの追加</a> </li> 
       </ul> </p> </td> 
     <td colname="col2"> <p> DOM 内にグローバル _satellite オブジェクトが見つかりませんでした。Dynamic Tag Management がインストールされていないか、実行に失敗します。 </p> </td> 
     <td colname="col3"> <p>ページで DTM ライブラリが実装され、後続のスクリプトアクティビティによってブロックされていないことを確認します。 </p> </td> 
@@ -236,7 +239,7 @@ Auditor では、タグの有無、およびタグがページコード内の適
     <td colname="col3"> <p>各ページに DTM <span class="codeph">pageBottom</span> 呼び出しをインストールします。 </p> </td> 
    </tr> 
    <tr> 
-    <td colname="col1"> <p><b>Experience Cloud ID サービス - Cookie の有無</b> </p> <p>重み付け：5 </p> <p><a href="https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html" format="html" scope="external">追加情報</a> </p> </td> 
+    <td colname="col1"> <p><b>Experience Cloud ID サービス - Cookie の有無</b> </p> <p>重み付け：5 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/dtm/using/tools/macid.html" format="html" scope="external">追加情報</a> </p> </td> 
     <td colname="col2"> <p> <span class="codeph">AMCV_</span> cookie が見つかりませんでした。訪問者オブジェクトは、<span class="codeph">VisitorAPI.js</span> コードからインスタンス化する必要があります。 </p> </td> 
     <td colname="col3"> <p> DTM 実装の場合は、AdobeOrg ID が MCID ツールに正しく入力されていることを確認します。 </p> </td> 
    </tr> 
