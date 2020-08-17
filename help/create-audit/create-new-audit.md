@@ -4,8 +4,11 @@ seo-description: Auditor での新しい監査の作成
 seo-title: Auditor での新しい監査の作成
 title: Auditor での新しい監査の作成
 uuid: bd6798bb-3fab-4091-9e07-d3d1e5fdd087
-translation-type: ht
-source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
+translation-type: tm+mt
+source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+workflow-type: tm+mt
+source-wordcount: '501'
+ht-degree: 100%
 
 ---
 
@@ -29,7 +32,7 @@ source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
    名前は 250 文字以内にする必要があります。
 1. （必須）開始 URL を指定します。
 
-   開始 URL を指定する場合は、プロトコルが必要です。開始 URL は、監査がクロールを開始するページです。開始後、Auditor は開始 URL から始まるリンクに従って、最大 500 ページまでクロールします。詳しくは、[Include フィルターと Exclude フィルター](../create-audit/filters.md#concept-23531490bb124981ba807ed1806e3257)を参照してください。開始 URL は 250 文字以内にする必要があります。
+   開始 URL を指定する場合は、プロトコルが必要です。開始 URL は、監査がクロールを開始するページです。開始後、Auditor は開始 URL から始まるリンクに従って、最大 500 ページまでクロールします。詳しくは、[Include フィルターと Exclude フィルター](../create-audit/filters.md)を参照してください。開始 URL は 250 文字以内にする必要があります。
 
    >[!NOTE]
    >
@@ -52,7 +55,7 @@ source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
 
    Include フィルターは 1 行につき 1,000 文字までに制限されます。
 
-   詳しくは、[Include リスト](../create-audit/filters.md#section-7626060a56a24b658f8c05f031ac3f5f)を参照してください。
+   詳しくは、[Include リスト](../create-audit/filters.md)を参照してください。
 1. Exclude フィルターを指定します。
 
    Exclude リストは、URL が監査されるのを防ぎます。Include リストと同様に、正確な URL、URL の一部、または正規表現を使用します。
@@ -61,7 +64,7 @@ source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
 
    Exclude フィルターは 1 行につき 1,000 文字までに制限されます。
 
-   詳しくは、[Exclude リスト](../create-audit/filters.md#section-00aa5e10c878473b91ba0844bebe7ca9)を参照してください。
+   詳しくは、[Exclude リスト](../create-audit/filters.md)を参照してください。
 1. （オプション）必要に応じて、Include フィルターと Exclude フィルター、および URL をテストできます。
 
    フィルターと URL を入力し、 **[!UICONTROL Apply]** をクリックしてテストを実行します。
