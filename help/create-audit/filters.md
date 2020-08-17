@@ -4,8 +4,11 @@ seo-description: Include フィルターは、Starting URL から監査でクロ
 seo-title: Include フィルターと Exclude フィルター
 title: Include フィルターと Exclude フィルター
 uuid: 477fc38c-7351-42dd-8209-2fb7549ee34c
-translation-type: ht
-source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
+translation-type: tm+mt
+source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+workflow-type: tm+mt
+source-wordcount: '804'
+ht-degree: 98%
 
 ---
 
@@ -77,7 +80,7 @@ Include フィルターに URL または正規表現を含むフィルターに�
 
 Include フィルターには、正確な URL、URL の一部または正規表現を含めることができます。例えば、Starting URL が [!DNL http://mysite.com] の場合、次のページはデフォルトでスキャン対象になります（太字に注意してください）。
 
-```
+```html
 http://mysite.com
 http
 <b>s</b>://mysite.com
@@ -89,9 +92,7 @@ http://
 <b>my</b>.mysite.com/products/products_and_services.html
 ```
 
-複雑な URL パターンの場合は、[ObservePoint の 正規表現テスト機能](http://regex.observepoint.com/)を使用します。
-
-一般的なパターンマッチの使用例については、『[Common Regular Expressions for ObservePoint](https://help.observepoint.com/articles/2872116-common-regular-expressions-for-observepoint)』ドキュメントも参照してください。
+複雑な URL パターンの場合は、[ObservePoint の 正規表現テスト機能](https://regex.observepoint.com/)を使用します。
 
 ## Exclude フィルター {#section-00aa5e10c878473b91ba0844bebe7ca9}
 
@@ -107,4 +108,4 @@ Auditor 内でフィルターと URL をテストできます。
 
 ## ObservePoint のドキュメント {#section-79cdc8e850d047969b6d2badf6bbd6f9}
 
-この記事は ObservePoint と連携して開発されました。最新の情報については、[ObservePoint のドキュメント](https://help.observepoint.com/articles/2872121-include-and-exclude-filters)を参照してください。
+この記事は ObservePoint と連携して開発されました。For the latest information, refer to the [ObservePoint documentation](https://help.observepoint.com/.
