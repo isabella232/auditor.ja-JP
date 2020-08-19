@@ -1,13 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
+description: adobe監査テストに関する情報
+seo-description: adobe監査テストに関する情報
 seo-title: テストルーブリック 1.0.1
 title: テストルーブリック 1.0.1
 uuid: 2ed2572e-ddb8-4899-b3a9-1329afdd7905
 translation-type: tm+mt
-source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+source-git-commit: c3ab954f45bd12758b7bfe100a30c8a9859613b9
 workflow-type: tm+mt
-source-wordcount: '2737'
+source-wordcount: '2747'
 ht-degree: 99%
 
 ---
