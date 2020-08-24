@@ -4,9 +4,9 @@ seo-description: このリファレンスでは、Auditor がタグの有無を�
 seo-title: タグの有無
 title: タグの有無
 uuid: 91aa355b-7022-431c-9837-e108b5ce604d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '943'
 ht-degree: 100%
 
