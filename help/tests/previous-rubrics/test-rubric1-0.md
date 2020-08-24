@@ -96,7 +96,7 @@ Auditor は、タグを他のルールおよび推奨ベストプラクティス
   <tbody> 
    <tr> 
     <td colname="col1"> <p><b>Advertising Cloud - コンバージョン名は英数字のみを使用している</b> </p> <p>重み付け：3 </p> </td> 
-    <td colname="col2"> <p><span class="codeph"> ev_conversion_property_name</span> パラメーターには、「<span class="codeph"> ev_transid</span>」パラメーター （<span class="codeph"> ev_transid</span> 値には、テキスト値または数値を含めることができます）以外の数値と 10 進数のみを含める必要があります） </p> <p><span class="codeph">ev_</span> で始まる URL パラメーターを含む、<span class="codeph">everesttech.net</span> ピクセルを探します。 </p> <p>例： </p> <p><span class="codeph"> http://pixel.everesttech.net/1180/t?ev_page_load=1&amp;ev_revenue=$12&amp;ev_transid=1hf74i47</span> </p> </td> 
+    <td colname="col2"> <p><span class="codeph"> ev_conversion_property_name</span> パラメーターには、「<span class="codeph"> ev_transid</span>」パラメーター （<span class="codeph"> ev_transid</span> 値には、テキスト値または数値を含めることができます）以外の数値と 10 進数のみを含める必要があります） </p> <p><span class="codeph">ev_</span> で始まる URL パラメーターを含む、<span class="codeph">everesttech.net</span> ピクセルを探します。 </p> <p>例： </p> <p><span class="codeph">http://pixel.everesttech.net/1180/t?ev_page_load=1&amp;ev_revenue=$12&amp;ev_transid=1hf74i47</span> </p> </td> 
     <td colname="col3"> <p> トランザクションプロパティのパラメーターには、数値と小数値のみを含めてください。 </p> <p> <p>警告： その他の値タイプは、データが失われる原因となる場合があります。 </p> </p> </td> 
    </tr> 
    <tr> 
@@ -110,7 +110,7 @@ Auditor は、タグを他のルールおよび推奨ベストプラクティス
     <td colname="col3"> <p>プロパティ名 <span class="codeph"> ev_transid=</span> には、値（<span class="codeph"> ev_transid=</span>）を含める必要があります。値が指定されていない場合、トランザクションデータが失われる可能性があります。<span class="codeph"> ev_transid=</span> に値を割り当てるか、ピクセルからパラメーターを削除します。 </p> </td> 
    </tr> 
    <tr> 
-    <td colname="col1"> <p><b>Analytics - DOM でインスタンス化されている</b> </p> <p>重み付け：5 </p> <p><a href="https://docs.adobe.com/content/help/en/analytics/implementation/testing-and-validation/testing-and-validation-process/impl-validation.html" format="html" scope="external">追加情報</a> </p> </td> 
+    <td colname="col1"> <p><b>Analytics - DOM でインスタンス化されている</b> </p> <p>重み付け：5 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/analytics/implementation/home.html" format="html" scope="external">追加情報</a> </p> </td> 
     <td colname="col2"> <p> Adobe Analytics コードがインストールされていないか、実行に失敗します。Web ページで解析コードが見つからない場合は、0 を返します。 </p> </td> 
     <td colname="col3"> <p>ページで Analytics タグが実装され、後続のスクリプトアクティビティによってブロックされていないことを確認します。 </p> </td> 
    </tr> 
@@ -146,7 +146,7 @@ Auditor は、タグを他のルールおよび推奨ベストプラクティス
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>Target - mboxDefault は mboxCreate よりも優先される</b> </p> <p>重み付け：5 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/target/using/implement-target/client-side/functions-overview/mboxcreate-atjs.html" format="html" scope="external">追加情報</a> </p> </td> 
-    <td colname="col2"> <p><span class="codeph"> mboxCreate</span> の適切な使用方法は次のようになります。 </p> <p> <span class="codeph"> &lt;div class="mboxDefault"&gt;&lt;!-顧客コンテンツ--&gt;&lt;/div&gt;&lt;script&gt;mboxCreate('myMboxName')&lt;/script&gt;</span> </p> </td> 
+    <td colname="col2"> <p><span class="codeph"> mboxCreate</span> の適切な使用方法は次のようになります。 </p> <p> <span class="codeph"> &lt;div class="mboxDefault"&gt;&lt;! -顧客コンテンツ--&gt;&lt;/div&gt;&lt;script&gt;mboxCreate('myMboxName')&lt;/script&gt;</span> </p> </td> 
     <td colname="col3"> <p><span class="codeph"> mboxCreate()</span> を呼び出す前に、必ず<span class="codeph"> &lt;div class="mboxDefault"&gt;&lt;/div&gt;</span> タグを含めてください。at.js による追加はおこなわれません。 </p> </td> 
    </tr> 
    <tr> 
