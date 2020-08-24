@@ -234,7 +234,7 @@ ht-degree: 99%
     <draft-comment>
       1.0.1 
     </draft-comment> <p><b>Target - mboxDefault は mboxCreate よりも優先される</b> </p> <p>重み付け：5 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/target/using/implement-target/implementing-target.html" format="html" scope="external">追加情報</a> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> mboxCreate</span> の適切な使用方法は次のようになります。 </p> <p> <span class="codeph"> &lt;div class="mboxDefault"&gt;&lt;!-顧客コンテンツ--&gt;&lt;/div&gt;&lt;script&gt;mboxCreate('myMboxName')&lt;/script&gt;</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> mboxCreate</span> の適切な使用方法は次のようになります。 </p> <p> <span class="codeph"> &lt;div class="mboxDefault"&gt;&lt;! -顧客コンテンツ--&gt;&lt;/div&gt;&lt;script&gt;mboxCreate('myMboxName')&lt;/script&gt;</span> </p> </td> 
    <td colname="col3"> <p><span class="codeph"> mboxCreate()</span> を呼び出す前に、必ず<span class="codeph"> &lt;div class="mboxDefault"&gt;&lt;/div&gt;</span> タグを含めてください。at.js による追加はおこなわれません。 </p> </td> 
   </tr> 
   <tr> 
@@ -353,7 +353,7 @@ Auditor はタグの有無、およびタグがページコード内の適切な
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Experience Cloud ID サービス - コードの有無</b> </p> <p>重み付け：5 </p> <p><a href="https://docs.adobe.com/content/help/en/id-service/using/implementation/implementation-methods.html" format="html" scope="external">追加情報</a> </p> </td> 
+    </draft-comment> <p><b>Experience Cloud ID サービス - コードの有無</b> </p> <p>重み付け：5 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/id-service/using/implementation/implementation-methods.html" format="html" scope="external">追加情報</a> </p> </td> 
    <td colname="col2"> <p>Experience Cloud ID サービスコードが見つかりませんでした。Experience Cloud ID（MCID）は、Experience Cloud ソリューションから最大限の価値を引き出すために強く推奨され、Experience Cloud ソリューション全体の ID 管理にとって重要です。 </p> </td> 
    <td colname="col3"> <p> 最新バージョンの MCID をインストールします。 </p> </td> 
   </tr> 
