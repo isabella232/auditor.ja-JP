@@ -1,14 +1,14 @@
 ---
-description: Adobe Experience Platform監査人に関するよくある質問と回答
-seo-description: Adobe Experience Platform監査人に関するよくある質問と回答
+description: Adobe Experience Platform Auditor に関するよくある質問と回答
+seo-description: Adobe Experience Platform Auditor に関するよくある質問と回答
 seo-title: Auditor についての FAQ
-title: Adobe Experience Platform監査FAQ
+title: Adobe Experience Platform Auditor FAQ
 uuid: 4db0781a-b288-4ec2-97ff-410a8241a61d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c3ab954f45bd12758b7bfe100a30c8a9859613b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '957'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -129,7 +129,7 @@ Auditor を通じて提供される推奨事項は、DTM や Target などの Ad
 
 いいえ。ただし、ObservePoint のフル機能を使用すると、すべてのマーケティングタグとテクノロジーを監査および監視できます。アドビのお客様は、無料の体験版アカウントをご利用いただけます。体験版アカウントにアクセスするには、[ObservePoint の Auditor ページ](https://www.observepoint.com/adobe-auditor/?utm_source=Adobe&amp;utm_medium=Auditor&amp;utm_campaign=Premium)を参照してください。
 
-## IP アドレスを承認して、ログインで保護されたページのスキャンを許可することはできますか。{#section-011e4f54c58140ffb93bedeb0745b6cc}
+## IP アドレスを承認して、ログインで保護されたページのスキャンを許可することはできますか。 {#section-011e4f54c58140ffb93bedeb0745b6cc}
 
 この機能は現在、完全な ObservePoint 製品を使用していない限り、サポートされていません。
 
