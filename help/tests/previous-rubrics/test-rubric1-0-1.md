@@ -1,14 +1,14 @@
 ---
-description: adobe監査テストに関する情報
-seo-description: adobe監査テストに関する情報
+description: Adobe Auditor テストに関する情報
+seo-description: Adobe Auditor テストに関する情報
 seo-title: テストルーブリック 1.0.1
 title: テストルーブリック 1.0.1
 uuid: 2ed2572e-ddb8-4899-b3a9-1329afdd7905
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c3ab954f45bd12758b7bfe100a30c8a9859613b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2747'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -185,7 +185,7 @@ ht-degree: 99%
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Analytics - インスタンス化は1回のみ</b> </p> <p>重み付け：5 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/analytics/implementation/home.html" format="https" scope="external">追加情報</a> </p> </td> 
+    </draft-comment> <p><b>Analytics - インスタンス化は 1 回のみ</b> </p> <p>重み付け：5 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/analytics/implementation/home.html" format="https" scope="external">追加情報</a> </p> </td> 
    <td colname="col2"> <p> Adobe Analytics コードがページで複数回検出されました。Web ページで解析コードが見つからない場合は、0 を返します。 </p> </td> 
    <td colname="col3"> <p>ページ上の Analytics タグが 1 つだけであることを確認します。 </p> </td> 
   </tr> 
@@ -219,7 +219,7 @@ ht-degree: 99%
       1.0.1 
     </draft-comment> <p><b>Launch - 最新バージョン</b> </p> <p>重み付け：2 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/launch/using/intro/get-started/quick-start.html" format="html" scope="external">追加情報</a> </p> </td> 
    <td colname="col2"> <p>Launch コードライブラリ（Turbine）の最新バージョンがこれらのページで実行されていません。Experience Cloud テクノロジーの土台となるコードライブラリは、パフォーマンスの向上を活用し、最新の機能を提供できるよう、常に更新および調整されています。 </p> </td> 
-   <td colname="col3"> <p> Launch ライブラリを再構築して公開することで、Launchライブラリを更新してください。 </p> </td> 
+   <td colname="col3"> <p> Launch ライブラリを再構築して公開することで、Launch ライブラリを更新してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
