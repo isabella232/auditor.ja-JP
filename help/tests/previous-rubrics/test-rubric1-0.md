@@ -1,14 +1,14 @@
 ---
-description: adobe監査テストに関する情報
-seo-description: adobe監査テストに関する情報
+description: Adobe Auditor テストに関する情報
+seo-description: Adobe Auditor テストに関する情報
 seo-title: テストルーブリック 0.0.8
 title: テストルーブリック 0.0.8
 uuid: c62b7169-a650-4650-876f-c254eb57cb25
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c3ab954f45bd12758b7bfe100a30c8a9859613b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1998'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -115,7 +115,7 @@ Auditor は、タグを他のルールおよび推奨ベストプラクティス
     <td colname="col3"> <p>ページで Analytics タグが実装され、後続のスクリプトアクティビティによってブロックされていないことを確認します。 </p> </td> 
    </tr> 
    <tr> 
-    <td colname="col1"> <p><b>Analytics - インスタンス化は1回のみ</b> </p> <p>重み付け：5 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/analytics/implementation/home.html" format="https" scope="external">追加情報</a> </p> </td> 
+    <td colname="col1"> <p><b>Analytics - インスタンス化は 1 回のみ</b> </p> <p>重み付け：5 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/analytics/implementation/home.html" format="https" scope="external">追加情報</a> </p> </td> 
     <td colname="col2"> <p> Adobe Analytics コードがページで複数回検出されました。Web ページで解析コードが見つからない場合は、0 を返します。 </p> </td> 
     <td colname="col3"> <p>ページ上の Analytics タグが 1 つだけであることを確認します。 </p> </td> 
    </tr> 
