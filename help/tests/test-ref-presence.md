@@ -4,10 +4,10 @@ seo-description: このリファレンスでは、Auditor がタグの有無を�
 seo-title: タグの有無
 title: タグの有無
 uuid: 91aa355b-7022-431c-9837-e108b5ce604d
-translation-type: ht
-source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
-workflow-type: ht
-source-wordcount: '943'
+translation-type: tm+mt
+source-git-commit: 77ced60ff8e05515521d89d16c32cbad42d1e8d0
+workflow-type: tm+mt
+source-wordcount: '935'
 ht-degree: 100%
 
 ---
@@ -69,65 +69,65 @@ Auditor はタグの有無、およびタグがページコード内の適切な
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <draft-comment>
+    <!--
       1.0.1 
-    </draft-comment> <p><b>Experience Cloud ID サービス - コードの有無</b> </p> <p>重み付け：5 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/id-service/using/intro/overview.html" format="html" scope="external">追加情報</a> </p> </td> 
+    --> <p><b>Experience Cloud ID サービス - コードの有無</b> </p> <p>重み付け：5 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/id-service/using/intro/overview.html" format="html" scope="external">追加情報</a> </p> </td> 
    <td colname="col2"> <p>Experience Cloud ID サービスコードが見つかりませんでした。Experience Cloud ID（MCID）は、Experience Cloud ソリューションから最大限の価値を引き出すために強く推奨され、Experience Cloud ソリューション全体の ID 管理にとって重要です。 </p> </td> 
    <td colname="col3"> <p> 最新バージョンの MCID をインストールします。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <draft-comment>
+    <!--
       1.0.1 
-    </draft-comment> <p><b>Experience Cloud ID サービス - Cookie の有無</b> </p> <p>重み付け：5 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/dtm/using/tools/macid.html" format="html" scope="external">追加情報</a> </p> </td> 
+    --> <p><b>Experience Cloud ID サービス - Cookie の有無</b> </p> <p>重み付け：5 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/dtm/using/tools/macid.html" format="html" scope="external">追加情報</a> </p> </td> 
    <td colname="col2"> <p> <span class="codeph">AMCV_</span> cookie が見つかりませんでした。訪問者オブジェクトは、<span class="codeph">VisitorAPI.js</span> コードからインスタンス化する必要があります。 </p> </td> 
    <td colname="col3"> <p> DTM 実装の場合は、AdobeOrg ID が MCID ツールに正しく入力されていることを確認します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <draft-comment>
+    <!--
       1.0.1 
-    </draft-comment> <p><b>Experience Cloud ID サービス - MID 値が存在する</b> </p> <p>重み付け：5 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/id-service/using/intro/cookies.html" format="html" scope="external">追加情報</a> </p> </td> 
+    --> <p><b>Experience Cloud ID サービス - MID 値が存在する</b> </p> <p>重み付け：5 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/id-service/using/intro/cookies.html" format="html" scope="external">追加情報</a> </p> </td> 
    <td colname="col2"> <p> <span class="codeph">AMCV_</span> cookie に MID 値が見つかりませんでした。 </p> </td> 
    <td colname="col3"> <p>もう一度テストして、MCID API の遅延時間を確認してください。問題が解決しない場合は、アドビカスタマーケアにお問い合わせください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <draft-comment>
+    <!--
       1.0.5 
-    </draft-comment> <p><b>Launch - ライブラリが読み込まれている</b> </p> <p>重み付け：5 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/launch/using/intro/get-started/quick-start.html" format="https" scope="external">追加情報</a> </p> </td> 
+    --> <p><b>Launch - ライブラリが読み込まれている</b> </p> <p>重み付け：5 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/launch/using/intro/get-started/quick-start.html" format="https" scope="external">追加情報</a> </p> </td> 
    <td colname="col2"> <p> DOM 内にグローバル _satellite オブジェクトが見つかりませんでした。Launch がインストールされていないか、実行に失敗します。 </p> </td> 
    <td colname="col3"> <p>ページで Launch ライブラリが実装され、後続のスクリプトアクティビティによってブロックされていないことを確認します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <draft-comment>
+    <!--
       1.0.5 
-    </draft-comment> <p><b>Launch - 複数の埋め込みスクリプトがない</b> </p> <p>重み付け：5 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/launch/using/intro/get-started/quick-start.html" format="https" scope="external">追加情報</a> </p> </td> 
+    --> <p><b>Launch - 複数の埋め込みスクリプトがない</b> </p> <p>重み付け：5 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/launch/using/intro/get-started/quick-start.html" format="https" scope="external">追加情報</a> </p> </td> 
    <td colname="col2"> <p>ページに複数の埋め込みスクリプトを読み込まないでください。実稼動サイトでは、1 つの Launch ライブラリのみを読み込みます。 </p> </td> 
    <td colname="col3"> <p>実稼動ライブラリのみがページに読み込まれていることを確認してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <draft-comment>
+    <!--
       1.0.5 
-    </draft-comment> <p><b>Launch - &lt;body&gt; 内に pageBottom コールバックが存在する</b> </p> <p>重み付け：5 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/launch/using/intro/get-started/quick-start.html" format="https" scope="external">追加情報</a> </p> </td> 
+    --> <p><b>Launch - &lt;body&gt; 内に pageBottom コールバックが存在する</b> </p> <p>重み付け：5 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/launch/using/intro/get-started/quick-start.html" format="https" scope="external">追加情報</a> </p> </td> 
    <td colname="col2"> <p> Launch で必要な<span class="codeph"> _satellite.pageBottom()</span> コールバックが、<span class="codeph"> &lt;body&gt;</span> 内で見つかりませんでした。 </p> <p>このテストは、<span class="codeph">pageBottom </span>コールがページで見つからない、または <span class="codeph"> &lt;head&gt;</span> タグ内（または他の予期しない場所）にある場合に失敗します。<span class="codeph">pageBottom</span> が <span class="codeph">&lt;body&gt;</span> タグ内で見つかった場合にのみ合格となります。ページ上にない場合は機能せず、他の 2 つの <span class="codeph">pageBottom</span> テストも失敗します。 </p> </td> 
    <td colname="col3"> <p>Launch が適切に機能するよう、<span class="codeph">&lt;/body&gt;</span> 終了タグの直前にインラインスクリプトを追加します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <draft-comment>
+    <!--
       1.0.5 
-    </draft-comment> <p><b>Launch - 非同期でデプロイする場合は pageBottom コールバックを使用しない</b> </p> <p>重み付け：5 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/launch/using/intro/get-started/quick-start.html" format="https" scope="external">追加情報</a> </p> </td> 
+    --> <p><b>Launch - 非同期でデプロイする場合は pageBottom コールバックを使用しない</b> </p> <p>重み付け：5 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/launch/using/intro/get-started/quick-start.html" format="https" scope="external">追加情報</a> </p> </td> 
    <td colname="col2"> <p><span class="codeph">_satellite.pageBottom()</span> コールバックがページで見つかりました。Launch が非同期でデプロイされている場合は、このようにはなりません。 </p> </td> 
    <td colname="col3"> <p><span class="codeph">_satellite.pageBottom()</span> スクリプトを削除して、正しい Launch 機能を有効にします。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <draft-comment>
+    <!--
       1.0.1 
-    </draft-comment> <p><b>Target - コードの有無</b> </p> <p>重み付け：5 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/target/using/implement-target/implementing-target.html" format="html" scope="external">追加情報</a> </p> </td> 
+    --> <p><b>Target - コードの有無</b> </p> <p>重み付け：5 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/target/using/implement-target/implementing-target.html" format="html" scope="external">追加情報</a> </p> </td> 
    <td colname="col2"> <p>Target は、DOM で定義する必要があります。 </p> </td> 
    <td colname="col3"> <p>最新バージョンの Target（at.js）をインストールします。 </p> </td> 
   </tr> 
