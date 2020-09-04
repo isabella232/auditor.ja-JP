@@ -4,8 +4,11 @@ seo-description: このリファレンスでは、Auditor のテストで表示�
 seo-title: アラート
 title: アラート
 uuid: 8f05b3c1-2427-4691-a88f-1de98f120a02
-translation-type: ht
-source-git-commit: 78105ff6766f48f3aaccfeda281e5b4883be856a
+translation-type: tm+mt
+source-git-commit: 77ced60ff8e05515521d89d16c32cbad42d1e8d0
+workflow-type: tm+mt
+source-wordcount: '904'
+ht-degree: 100%
 
 ---
 
@@ -27,25 +30,25 @@ source-git-commit: 78105ff6766f48f3aaccfeda281e5b4883be856a
  <tbody> 
   <tr> 
    <td colname="col1"> 
-    <draft-comment>
+    <!--
       1.0.1 
-    </draft-comment> <p><b>Advertising Cloud - 正しいコンバージョンタグが実装されている</b> </p> <p>重み付け：0 </p> </td> 
+    --> <p><b>Advertising Cloud - 正しいコンバージョンタグが実装されている</b> </p> <p>重み付け：0 </p> </td> 
    <td colname="col2"> <p>正しいコンバージョンタグが使用されているかどうかを確認します。 </p> <p> <p>警告：非推奨の TubeMogul コンバージョンタグを使用すると、データが失われる可能性があります。 </p> </p> </td> 
    <td colname="col3"> <p>コンバージョンピクセルを新しい Advertising Cloud 画像専用コンバージョンタグにアップグレードします。 </p> <p>Advertising Cloud Launch 拡張機能を使用すると、最も容易にこれを実施できます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <draft-comment>
+    <!--
       1.0.1 
-    </draft-comment> <p><b>Advertising Cloud - 正しい JS タグを使用している</b> </p> <p>重み付け：0 </p> </td> 
+    --> <p><b>Advertising Cloud - 正しい JS タグを使用している</b> </p> <p>重み付け：0 </p> </td> 
    <td colname="col2"> <p>Advertising Cloud では、最新の JavaScript タグを使用する必要があります。 </p> </td> 
    <td colname="col3"> <p>Advertising Cloud javaScript を最新バージョンにアップグレードします。非推奨の JavaScript バージョンを使用すると、機能が失われる可能性があります。 </p> <p>Advertising Cloud Launch 拡張機能を使用すると、より容易に実施できます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <draft-comment>
+    <!--
       1.0.1 
-    </draft-comment> <p><b>Advertising Cloud - 画像専用タグ</b> </p> <p>重み付け：0 </p> </td> 
+    --> <p><b>Advertising Cloud - 画像専用タグ</b> </p> <p>重み付け：0 </p> </td> 
    <td colname="col2"> <p>Advertising Cloud の画像ピクセル形式は、次の推奨形式のいずれかと一致する必要があります。 </p> <p> 
      <ul id="ul_D85BE9C8A8654DE890E1A814E3573D86"> 
       <li id="li_E2AEDD76AC7044E8AD6AE8375858D198"> <p><span class="codeph">http(s)://rtd.tubemogul.com/upi/?sid=&lt;HASH_VALUE&gt;</span> </p> </li> 
@@ -56,71 +59,71 @@ source-git-commit: 78105ff6766f48f3aaccfeda281e5b4883be856a
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <draft-comment>
+    <!--
       1.0.1 
-    </draft-comment> <p><b>Advertising Cloud - セグメントピクセルの DSP 同期が有効になっている</b> </p> <p>重み付け：0 </p> </td> 
+    --> <p><b>Advertising Cloud - セグメントピクセルの DSP 同期が有効になっている</b> </p> <p>重み付け：0 </p> </td> 
    <td colname="col2"> <p>TubeMogul セグメントピクセルに DSP 同期設定が含まれているかどうかを確認し、その設定をピクセルに追加することをお勧めします。 </p> <p>DSP Syncing 設定は、クエリ文字列パラメーターを使用して決定されるので、 </p> <p>タグが<span class="codeph"> （"https://rtd.tubemogul.com/upi/?sid=&lt;HASH_VALUE&gt;"</span> </p> <p> または <span class="codeph"> "http(s)://rtd-tm.everesttech.net/upi/?sid=&lt;HASH_VALUE&gt;"</span> </p> <p> または <span class="codeph"> "http(s)://pixel.everesttech.net/px2/&lt;NUMERIC_ID&gt;?"</span>、 </p> <p>およびタグに URL パラメーター <span class="codeph"> "sid=" が含まれる）</span>に対して実行される場合、 </p> <p>URL パラメーター <span class="codeph"> "cs=0"</span> または<span class="codeph"> "cs=1"</span> が存在するかどうかを確認します。存在しない場合は、オーディエンスの一致率を向上させるために、これらのピクセルに <span class="codeph"> "cs=1"</span> を追加することをお勧めします。 </p> </td> 
    <td colname="col3"> <p> DSP 同期を実行できるよう、URL パラメーター <span class="codeph"> "cs=1"</span> を Advertising Cloud ピクセルに追加します。これにより、オーディエンスの一致率が向上します。 </p> <p>Advertising Cloud Launch 拡張機能を使用すると、最も簡単にこれを実行できます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <draft-comment>
+    <!--
       CAce6db25bc8c443409f0fcc5ac9d622c3 
-    </draft-comment> <p><b>DTM - pageBottom コールバックの配置</b> </p> <p>重み付け：0 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external">追加情報</a> </p> 
-    <draft-comment>
+    --> <p><b>DTM - pageBottom コールバックの配置</b> </p> <p>重み付け：0 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external">追加情報</a> </p> 
+    <!--
       TEa9df69942f404055a64262889c8b21d3 
-    </draft-comment> </td> 
+    --> </td> 
    <td colname="col2"> <p>Dynamic Tag Management には、<span class="codeph">_satellite.pageBottom()</span> 関数が必要です。DTM が適切に機能するよう、<span class="codeph">&lt;/body&gt;</span> 終了タグの直前にインラインスクリプトを追加します。 </p> <p> <p>注意：ベストプラクティスは、このタグを<span class="codeph"> &lt;body&gt;</span> 内の<i>最後</i>のタグにすることです。<span class="codeph">&lt;body&gt;</span> タグ内にある場合でも、機能する可能性はありますが、ベストプラクティスではないので、正しく機能しない場合や、予期しない結果や望ましくない結果が生じる場合があります。 </p> </p> </td> 
    <td colname="col3"> <p>DTM が適切に機能するよう、<span class="codeph">&lt;/body&gt;</span> 終了タグの直前にインラインスクリプトを追加します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <draft-comment>
+    <!--
       1.0.1 
-    </draft-comment> <p><b>DTM - 自己ホストされている</b> </p> <p>重み付け：0 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/dtm/using/client-side/client-side-information.html" format="html" scope="external">追加情報</a> </p> </td> 
+    --> <p><b>DTM - 自己ホストされている</b> </p> <p>重み付け：0 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/dtm/using/client-side/client-side-information.html" format="html" scope="external">追加情報</a> </p> </td> 
    <td colname="col2"> <p> DTM ライブラリは、アドビの Akamai インスタンス上（<span class="filepath">assets.adobedtm.com</span>）でホストされています。 </p> <p> DTM の読み込みには、キャッシュ制御を通じた Web サイトのパフォーマンスの制御、サードパーティスクリプトの依存関係の軽減、および公開プロセスの制御の向上を提供する自己ホスト型アプローチが推奨されます。DTM ライブラリは、お客様自身の Web ホスティングまたは CDN を使用してホストおよび管理できます。 </p> </td> 
    <td colname="col3"> <p>ページに DTM を読み込む場合は、自己ホスト型アプローチを推奨します。Akamai CDN 経由の DTM ホスティングはほとんどの場合において機能しますが、自己ホスティングを使用すると、ページのパフォーマンスが向上します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <draft-comment>
+    <!--
       1.0.1 
-    </draft-comment> <p><b>Experience Cloud ID サービス - 1 つの AdobeOrg のみを使用する</b> </p> <p>重み付け：0 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/id-service/using/intro/id-request.html" format="html" scope="external">追加情報</a> </p> </td> 
+    --> <p><b>Experience Cloud ID サービス - 1 つの AdobeOrg のみを使用する</b> </p> <p>重み付け：0 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/id-service/using/intro/id-request.html" format="html" scope="external">追加情報</a> </p> </td> 
    <td colname="col2"> <p>通常の MCID 実装では、単一の AdobeOrg を使用する必要があります。 </p> </td> 
    <td colname="col3"> <p>この実装に複数の AdobeOrg ID が存在することを検証します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <draft-comment>
+    <!--
       1.0.5 
-    </draft-comment> <p><b>Launch - pageBottom コールバックの配置</b> </p> <p>重み付け：0 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/launch/using/intro/get-started/quick-start.html" format="https" scope="external">追加情報</a> </p> 
-    <draft-comment>
+    --> <p><b>Launch - pageBottom コールバックの配置</b> </p> <p>重み付け：0 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/launch/using/intro/get-started/quick-start.html" format="https" scope="external">追加情報</a> </p> 
+    <!--
       TE48c499b022f545c5bccc6f8bde169685 
-    </draft-comment> </td> 
+    --> </td> 
    <td colname="col2"> <p>同時にデプロイした場合、Launch では、ページ本文の最後で <span class="codeph">pageBottom</span> コールバック関数を定義する必要があります。 </p> <p> <p>注意：ベストプラクティスは、このタグを<span class="codeph"> &lt;body&gt;</span> 内の<i>最後</i>のタグにすることです。<span class="codeph">&lt;body&gt;</span> タグ内にある場合でも、機能する可能性はありますが、ベストプラクティスではないので、正しく機能しない場合や、予期しない結果や望ましくない結果が生じる場合があります。 </p> </p> </td> 
    <td colname="col3"> <p>Launch で同期デプロイメントを実行するには、<span class="codeph">_satellite.pageBottom()</span> 関数が必要です。Launch が適切に機能するよう、<span class="codeph">&lt;/body&gt;</span> 終了タグの直前にインラインスクリプトを追加します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <draft-comment>
+    <!--
       1.0.1 
-    </draft-comment> <p><b>Launch - 自己ホストされている</b> </p> <p>重み付け：0 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/launch/using/intro/get-started/quick-start.html" format="https" scope="external">Launch 使用の手引き</a> </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/launch/using/reference/client-side-info/asynchronous-deployment.html" format="https" scope="external">Launch の非同期デプロイメント</a> </p> </td> 
+    --> <p><b>Launch - 自己ホストされている</b> </p> <p>重み付け：0 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/launch/using/intro/get-started/quick-start.html" format="https" scope="external">Launch 使用の手引き</a> </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/launch/using/reference/client-side-info/asynchronous-deployment.html" format="https" scope="external">Launch の非同期デプロイメント</a> </p> </td> 
    <td colname="col2"> <p>Launch ライブラリは、アドビの Akamai インスタンス上（<span class="filepath"> assets.adobedtm.com</span>）でホストされています。 </p> <p>Launch の読み込みには、キャッシュ制御を通じた Web サイトのパフォーマンスの制御、サードパーティスクリプトの依存関係の軽減、および公開プロセスの制御の向上を提供する自己ホスト型アプローチが推奨されます。Launch ライブラリは、お客様自身の Web ホスティングまたは CDN を使用してホストおよび管理できます。 </p> </td> 
    <td colname="col3"> <p>Akamai CDN 経由の Launch ホスティングはほとんどの場合において機能しますが、最初のステップとして自己ホスティングを使用すると、ページのパフォーマンスが向上します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <draft-comment>
+    <!--
       1.0.1 
-    </draft-comment> <p><b>Launch - 非同期的にデプロイする必要がある</b> </p> <p>重み付け：0 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/launch/using/intro/get-started/quick-start.html" format="https" scope="external">追加情報</a> </p> </td> 
+    --> <p><b>Launch - 非同期的にデプロイする必要がある</b> </p> <p>重み付け：0 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/launch/using/intro/get-started/quick-start.html" format="https" scope="external">追加情報</a> </p> </td> 
    <td colname="col2"> <p>最適なパフォーマンスを得るには、Launch を非同期的にデプロイする必要があります。 </p> </td> 
    <td colname="col3"> <p>非同期的な Launch 機能が正しく動作するように、インラインスクリプトに async パラメーターを含めます </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <draft-comment>
+    <!--
       1.0.1 
-    </draft-comment> <p><b>Target - mboxDefault 内のコンテンツ</b> </p> <p>重み付け：0 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/target/using/implement-target/implementing-target.html" format="html" scope="external">追加情報</a> </p> </td> 
+    --> <p><b>Target - mboxDefault 内のコンテンツ</b> </p> <p>重み付け：0 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/target/using/implement-target/implementing-target.html" format="html" scope="external">追加情報</a> </p> </td> 
    <td colname="col2"> <p> at.js を使用する場合は、mboxDefault 内にコンテンツが存在する必要があります。 </p> </td> 
    <td colname="col3"> <p>コンテンツが使用可能であることを確認します。 </p> </td> 
   </tr> 
