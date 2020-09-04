@@ -4,10 +4,10 @@ seo-description: Adobe Auditor テストに関する情報
 seo-title: テストルーブリック 0.0.8
 title: テストルーブリック 0.0.8
 uuid: c62b7169-a650-4650-876f-c254eb57cb25
-translation-type: ht
-source-git-commit: c3ab954f45bd12758b7bfe100a30c8a9859613b9
-workflow-type: ht
-source-wordcount: '1998'
+translation-type: tm+mt
+source-git-commit: 77ced60ff8e05515521d89d16c32cbad42d1e8d0
+workflow-type: tm+mt
+source-wordcount: '1983'
 ht-degree: 100%
 
 ---
@@ -58,9 +58,9 @@ ht-degree: 100%
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>DTM - pageBottom コールバックの配置</b> </p> <p>重み付け：0 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external">追加情報</a> </p> 
-     <draft-comment>
+     <!--
        TEa9df69942f404055a64262889c8b21d3 
-     </draft-comment> </td> 
+     --> </td> 
     <td colname="col2"> <p> Dynamic Tag Management には、<span class="codeph">_satellite.pageBottom()</span> 関数が必要です。 </p> <p>ベストプラクティスとして、このタグを<span class="codeph"> &lt;body&gt;</span> 内の<i>最後</i>のタグにすることをお勧めします。<span class="codeph">&lt;body&gt;</span> タグ内にある場合でも、機能する可能性はありますが、ベストプラクティスではないので、正しく機能しない場合や、予期しない結果や望ましくない結果が生じる場合があります。 </p> </td> 
     <td colname="col3"> <p>DTM が適切に機能するよう、<span class="codeph">&lt;/body&gt;</span> 終了タグの直前にインラインスクリプトを追加します。 </p> </td> 
    </tr> 
@@ -255,9 +255,9 @@ Auditor では、タグの有無、およびタグがページコード内の適
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>Target - &lt;head&gt; でライブラリが読み込まれました</b> </p> <p>重み付け：4 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/target/using/implement-target/implementing-target.html" format="html" scope="external">追加情報</a> </p> 
-     <draft-comment>
+     <!--
        TE61c380082a4b4706b28a84aa047599a7 
-     </draft-comment> </td> 
+     --> </td> 
     <td colname="col2"> <p> Target ライブラリは、<span class="codeph">&lt;head&gt;</span> タグに読み込まれます。 </p> </td> 
     <td colname="col3"> <p> Target ライブラリが <span class="codeph">&lt;head&gt;</span> タグに読み込まれていることを確認してください。 </p> </td> 
    </tr> 
