@@ -4,9 +4,9 @@ seo-description: このリファレンスでは、Auditor のテストで表示�
 seo-title: アラート
 title: アラート
 uuid: 8f05b3c1-2427-4691-a88f-1de98f120a02
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 77ced60ff8e05515521d89d16c32cbad42d1e8d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '904'
 ht-degree: 100%
 
@@ -42,7 +42,7 @@ ht-degree: 100%
       1.0.1 
     --> <p><b>Advertising Cloud - 正しい JS タグを使用している</b> </p> <p>重み付け：0 </p> </td> 
    <td colname="col2"> <p>Advertising Cloud では、最新の JavaScript タグを使用する必要があります。 </p> </td> 
-   <td colname="col3"> <p>Advertising Cloud javaScript を最新バージョンにアップグレードします。非推奨の JavaScript バージョンを使用すると、機能が失われる可能性があります。 </p> <p>Advertising Cloud Launch 拡張機能を使用すると、より容易に実施できます。 </p> </td> 
+   <td colname="col3"> <p>Advertising Cloud JavaScript を最新バージョンにアップグレードします。非推奨の JavaScript バージョンを使用すると、機能が失われる可能性があります。 </p> <p>Advertising Cloud Launch 拡張機能を使用すると、より容易に実施できます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
