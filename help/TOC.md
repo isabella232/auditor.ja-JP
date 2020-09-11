@@ -1,11 +1,15 @@
 ---
 cloud: experience-cloud
 product: auditor
-sub-product: auditor
+sub-product: 監査人
 audience: end-user
-user-guide-title: Experience Platform Auditor Help
-translation-type: ht
-source-git-commit: 35902c30e578980d9675723a874af6da8d7e6a65
+user-guide-title: Experience Platform Auditor ヘルプ
+breadcrumb-title: Auditor Guide
+translation-type: tm+mt
+source-git-commit: 65cda335ae83c5a49cde06f54570bfac0ec88b32
+workflow-type: tm+mt
+source-wordcount: '55'
+ht-degree: 98%
 
 ---
 
