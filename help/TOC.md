@@ -7,11 +7,11 @@ user-guide-title: Experience Platform Auditor ヘルプ
 user-guide-description: Generate a report that grades your Adobe Experience Cloud implementation, with pointers on how to improve it.
 breadcrumb-title: Auditor Guide
 breadcrumb-url: /docs/auditor/using/overview.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: eff790431a58c832b299c6d58573d74b5b8dc50a
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '53'
+ht-degree: 100%
 
 ---
 
