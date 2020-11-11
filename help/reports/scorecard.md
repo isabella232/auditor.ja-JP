@@ -4,8 +4,11 @@ seo-description: テストを実行すると、スコアカードには、監査
 seo-title: スコアカード
 title: スコアカード
 uuid: a765cd6a-d3d6-4438-9621-d7899385a518
-translation-type: ht
-source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
+translation-type: tm+mt
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+workflow-type: tm+mt
+source-wordcount: '432'
+ht-degree: 91%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
 
 テストを実行すると、スコアカードには、監査に関する情報が表示されます。
 
-Auditor ページで監査の名前をクリックして、テストの結果を表示します。
+[Adobe Experience Platform監査]ページで監査名をクリックして、テストの結果を表示します。
 
 ![](assets/report.png)
 
@@ -47,7 +50,7 @@ Auditor ページで監査の名前をクリックして、テストの結果を
 
 スコアカードには、修正を&#x200B;**推奨**&#x200B;する点としてレベル 1 ～ 3 の問題が表示されます。
 
-**[!UICONTROL Download the Report]** をクリックして、監査によってレポートされた情報を含む Excel または PDF ファイルをダウンロードします。
+**[!UICONTROL Download the Report]** をクリックして、監査によってレポートされた情報を含む または PDF ファイルをダウンロードします。[!DNL Excel]
 
 各カテゴリのスコアに加えて、修正を推奨または強く推奨される点、およびテストに合格した項目がスコアカードに表示されます。それぞれの問題をクリックすると、右側のボックスに追加の詳細が表示されます。もう一度クリックしてさらにドリルダウンし、問題の修正方法に関する推奨事項を確認します。上記のスコアカードにおける推奨される問題の詳細は次のとおりです。
 
@@ -59,4 +62,4 @@ Auditor ページで監査の名前をクリックして、テストの結果を
 
 テストに合格または不合格となった URL のリストを確認できます。
 
-スコアカードで、テスト名または各カテゴリ見出しの下の&#x200B;**[!UICONTROL See All]** リンクをクリックします。これにより、テストの詳細が表示されます。各テストについて、テストの説明と、合格または不合格となった URL のリストを確認できます。この情報は、ダウンロードしたレポートにも含まれます。
+From the scorecard, click a test name or the **[!UICONTROL See All]** link under each category heading. これにより、テストの詳細が表示されます。各テストについて、テストの説明と、合格または不合格となった URL のリストを確認できます。この情報は、ダウンロードしたレポートにも含まれます。
