@@ -1,23 +1,23 @@
 ---
-description: このリファレンスでは、Auditor が設定で実行するテストの詳細を説明します。
-seo-description: このリファレンスでは、Auditor が設定で実行するテストの詳細を説明します。
+description: このリファレンスでは、Adobe Experience Platform監査が設定で実行するテストの詳細について説明します。
+seo-description: このリファレンスでは、Adobe Experience Platform監査が設定で実行するテストの詳細について説明します。
 seo-title: 設定
 title: 設定
 uuid: d40d815c-edfe-48b9-921f-cea1b0b54a0a
-translation-type: ht
-source-git-commit: 77ced60ff8e05515521d89d16c32cbad42d1e8d0
-workflow-type: ht
-source-wordcount: '833'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+workflow-type: tm+mt
+source-wordcount: '846'
+ht-degree: 89%
 
 ---
 
 
 # 設定
 
-このリファレンスでは、Auditor が設定で実行するテストの詳細を説明します。
+このリファレンスでは、Adobe Experience Platform監査が設定で実行するテストの詳細について説明します。
 
-構成テストでは、実装内の特定の設定や値、または競合の可能性をスキャンします。Auditor は、タグを他のルールおよび推奨ベストプラクティスと比較して評価します。
+構成テストでは、実装内の特定の設定や値、または競合の可能性をスキャンします。Platform Auditorは、タグを他のルールおよび推奨されるベストプラクティスと比較して評価します。
 
 <table id="table_A8A1FC360482447185C8460A18426638"> 
  <thead> 
@@ -97,8 +97,8 @@ ht-degree: 100%
     <!--
       1.0.1 
     --> <p><b>Launch - 最新バージョン</b> </p> <p>重み付け：2 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/launch/using/intro/get-started/quick-start.html" format="https" scope="external">追加情報</a> </p> </td> 
-   <td colname="col2"> <p>Launch コードライブラリ（Turbine）の最新バージョンがこれらのページで実行されていません。Experience Cloud テクノロジーの土台となるコードライブラリは、パフォーマンスの向上を活用し、最新の機能を提供できるよう、常に更新および調整されています。 </p> </td> 
-   <td colname="col3"> <p> Launch ライブラリを再構築して公開することで、Launch ライブラリを更新してください。 </p> </td> 
+   <td colname="col2"> <p>これらのページでは、プラットフォーム起動コードライブラリ（タービン）の最新バージョンが実行されていません。 Experience Cloud テクノロジーの土台となるコードライブラリは、パフォーマンスの向上を活用し、最新の機能を提供できるよう、常に更新および調整されています。 </p> </td> 
+   <td colname="col3"> <p> プラットフォーム起動ライブラリを再構築して発行することで、プラットフォーム起動ライブラリを更新します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
