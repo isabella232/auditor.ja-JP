@@ -4,8 +4,11 @@ seo-description: Audit List ページには、すべての監査に関する情�
 seo-title: Audit List ページ
 title: Audit List ページ
 uuid: 5b357dd3-80cb-4a76-8a19-c01f0603dfc0
-translation-type: ht
-source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
+translation-type: tm+mt
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+workflow-type: tm+mt
+source-wordcount: '230'
+ht-degree: 49%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
 
 Audit List ページには、すべての監査に関する情報が表示されます。
 
-Auditor を起動すると、監査リストページが表示されます。Audit List ページは、リスト表示またはカード表示として表示できます。
+Adobe Experience Platform監査人を開始すると、監査リストページが表示されます。 Audit List ページは、リスト表示またはカード表示として表示できます。
 
 ## リスト表示 {#section-a428749d2ab94a08bf460e6a486b844a}
 
@@ -22,22 +25,14 @@ Auditor を起動すると、監査リストページが表示されます。Aud
 
 ![](assets/audit-list.png)
 
-* Audit name
-* Starting URL
-
-   監査がページのクロールを開始する URL。
-* Score
-
-   監査には 1 ～ 100 のスコアが割り当てられ、100 はスキャンされたページに問題がないことを意味します。
-* Status
-
-   監査が完了した日時、または処理中であることを示します。
-* Requestor
-
-   監査を作成したユーザーの名前が表示されます。
-* Actions
-
-   監査のコピーまたは再実行、現在実行中の監査のキャンセル、Excel スプレッドシート形式でのレポートのダウンロード、監査の削除をおこなリンクが表示されます。
+| 項目 | 説明 |
+|---|---|
+| Audit name | 監査に与えられた名前 |
+| Starting URL | 監査がページのクロールを開始するURL |
+| Score | 監査には1 ～ 100のスコアが割り当てられます。100は、スキャンされたページに問題がないことを意味します。 |
+| Status | 監査が完了した、または処理中であることを示します |
+| Requestor | 監査を作成したユーザーの名前を表示します |
+| Actions | Provides links for copying or rerunning the audit, canceling an audit that is currently running, downloading a report as an [!DNL Excel] spreadsheet, or deleting the audit |
 
 監査結果を表示するには、監査の名前をクリックします。
 
@@ -47,7 +42,6 @@ Auditor を起動すると、監査リストページが表示されます。Aud
 
 ![](assets/card.png)
 
-監査結果を表示するには、監査の名前をクリックします。監査のコピー、再実行、キャンセル、または完了したレポートを Excel スプレッドシートまたは PDF 形式でダウンロードするためのリンクを表示するには、名前の横にあるメニューをクリックします。
+監査結果を表示するには、監査の名前をクリックします。Click the menu next to the name to see links for copying, rerunning, or canceling the audit, or to download a finished report as an [!DNL Excel] spreadsheet or PDF.
 
 ![](assets/card-menu.png)
-
