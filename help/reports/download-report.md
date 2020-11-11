@@ -4,8 +4,11 @@ seo-description: このレポートは、各 URL の合格または不合格を�
 seo-title: ダウンロードレポート
 title: ダウンロードレポート
 uuid: cd5c4db8-e647-4311-9abb-98dd3bbc7ef8
-translation-type: ht
-source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
+translation-type: tm+mt
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+workflow-type: tm+mt
+source-wordcount: '131'
+ht-degree: 90%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
 
 レポートは、ユーザーインターフェイスのスコアカードページで表示できます。また、次のレポートをダウンロードすることもできます。
 
-1. Auditor リストまたはスコアカードから、 **[!UICONTROL Download Report]** をクリックします。
+1. From the Adobe Experience Platform Auditor list or a scorecard, click **[!UICONTROL Download Report]**.
 
    レポートはスプレッドシートまたは PDF ファイル形式でダウンロードできます。
 1. ファイルを開くか、保存するかを指定します。
