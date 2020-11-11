@@ -1,17 +1,17 @@
 ---
 cloud: experience-cloud
-product: auditor
-sub-product: Auditor
+product: adobe experience platform auditor
+sub-product: adobe experience platform auditor
 audience: end-user
 user-guide-title: Experience Platform Auditor ヘルプ
 user-guide-description: Adobe Experience Cloud の実装状況を評価し、改善方法を示すレポートを生成します。
-breadcrumb-title: Auditor ガイド
+breadcrumb-title: Platform Auditorガイド
 breadcrumb-url: /docs/auditor/using/overview.html
 translation-type: tm+mt
-source-git-commit: eff790431a58c832b299c6d58573d74b5b8dc50a
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '78'
+ht-degree: 82%
 
 ---
 
@@ -37,5 +37,5 @@ ht-degree: 0%
    + 以前のテストルーブリック {#previous-rubrics}
       + [テストルーブリック 1.0.1](tests/previous-rubrics/test-rubric1-0-1.md)
       + [テストルーブリック 0.0.8](tests/previous-rubrics/test-rubric1-0.md)
-+ [Auditor についての FAQ](auditor-faq.md)
-+ [Auditor リリースノート](release-notes.md)
++ [Platform Auditor FAQ](auditor-faq.md)
++ [Platform Auditorリリースノート](release-notes.md)
