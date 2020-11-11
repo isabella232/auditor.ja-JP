@@ -1,21 +1,21 @@
 ---
-description: このリファレンスでは、Auditor のテストで表示されるアラートの詳細を提供します。
-seo-description: このリファレンスでは、Auditor のテストで表示されるアラートの詳細を提供します。
+description: このリファレンスでは、テストに関して表示されるAdobe Experience Platform監査人の警告について詳しく説明します。
+seo-description: このリファレンスでは、テストに関して表示されるAdobe Experience Platform監査人の警告について詳しく説明します。
 seo-title: アラート
 title: アラート
 uuid: 8f05b3c1-2427-4691-a88f-1de98f120a02
-translation-type: ht
-source-git-commit: 77ced60ff8e05515521d89d16c32cbad42d1e8d0
-workflow-type: ht
-source-wordcount: '904'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+workflow-type: tm+mt
+source-wordcount: '936'
+ht-degree: 70%
 
 ---
 
 
 # アラート {#alerts}
 
-このリファレンスでは、Auditor のテストで表示されるアラートの詳細を提供します。
+このリファレンスでは、テストに関して表示されるAdobe Experience Platform監査人の警告について詳しく説明します。
 
 アラートは、認識する必要があるが、スコアには影響しない問題を示します。これらは、ベストプラクティスの推奨事項ですが、お客様の実装に適用されない場合があります。
 
@@ -34,7 +34,7 @@ ht-degree: 100%
       1.0.1 
     --> <p><b>Advertising Cloud - 正しいコンバージョンタグが実装されている</b> </p> <p>重み付け：0 </p> </td> 
    <td colname="col2"> <p>正しいコンバージョンタグが使用されているかどうかを確認します。 </p> <p> <p>警告：非推奨の TubeMogul コンバージョンタグを使用すると、データが失われる可能性があります。 </p> </p> </td> 
-   <td colname="col3"> <p>コンバージョンピクセルを新しい Advertising Cloud 画像専用コンバージョンタグにアップグレードします。 </p> <p>Advertising Cloud Launch 拡張機能を使用すると、最も容易にこれを実施できます。 </p> </td> 
+   <td colname="col3"> <p>コンバージョンピクセルを新しい Advertising Cloud 画像専用コンバージョンタグにアップグレードします。 </p> <p>これはAdobe Experience Platform LaunchのAdvertising Cloud拡張で最も簡単に実現できます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -42,7 +42,7 @@ ht-degree: 100%
       1.0.1 
     --> <p><b>Advertising Cloud - 正しい JS タグを使用している</b> </p> <p>重み付け：0 </p> </td> 
    <td colname="col2"> <p>Advertising Cloud では、最新の JavaScript タグを使用する必要があります。 </p> </td> 
-   <td colname="col3"> <p>Advertising Cloud JavaScript を最新バージョンにアップグレードします。非推奨の JavaScript バージョンを使用すると、機能が失われる可能性があります。 </p> <p>Advertising Cloud Launch 拡張機能を使用すると、より容易に実施できます。 </p> </td> 
+   <td colname="col3"> <p>Advertising Cloud JavaScript を最新バージョンにアップグレードします。非推奨の JavaScript バージョンを使用すると、機能が失われる可能性があります。 </p> <p>これは、Platform Launch用のAdvertising Cloud拡張機能を使用すると、より簡単に実行できます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -55,7 +55,7 @@ ht-degree: 100%
       <li id="li_1EEFA03516BF445294B5EC5DED891758"> <p><span class="codeph">http(s)://rtd-tm.everesttech.net/upi/?sid=&lt;HASH_VALUE&gt;</span> </p> </li> 
       <li id="li_F72206B142214217BDD34356D2F3D8AD"> <p><span class="codeph">http(s)://pixel.everesttech.net/px2/&lt;NUMERIC_ID&gt;?</span> </p> </li> 
      </ul> </p> </td> 
-   <td colname="col3"> <p>Advertising Cloud の全機能を活用できるよう、Advertising Cloud のピクセルを新しい Advertising Cloud の画像専用タグにアップグレードします。 </p> <p>Advertising Cloud Launch 拡張機能を使用すると、最も容易にこれを実施できます。 </p> </td> 
+   <td colname="col3"> <p>Advertising Cloud の全機能を活用できるよう、Advertising Cloud のピクセルを新しい Advertising Cloud の画像専用タグにアップグレードします。 </p> <p>これは、Platform Launch用のAdvertising Cloud拡張機能を使用すると、最も簡単に実行できます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -63,7 +63,7 @@ ht-degree: 100%
       1.0.1 
     --> <p><b>Advertising Cloud - セグメントピクセルの DSP 同期が有効になっている</b> </p> <p>重み付け：0 </p> </td> 
    <td colname="col2"> <p>TubeMogul セグメントピクセルに DSP 同期設定が含まれているかどうかを確認し、その設定をピクセルに追加することをお勧めします。 </p> <p>DSP Syncing 設定は、クエリ文字列パラメーターを使用して決定されるので、 </p> <p>タグが<span class="codeph"> （"https://rtd.tubemogul.com/upi/?sid=&lt;HASH_VALUE&gt;"</span> </p> <p> または <span class="codeph"> "http(s)://rtd-tm.everesttech.net/upi/?sid=&lt;HASH_VALUE&gt;"</span> </p> <p> または <span class="codeph"> "http(s)://pixel.everesttech.net/px2/&lt;NUMERIC_ID&gt;?"</span>、 </p> <p>およびタグに URL パラメーター <span class="codeph"> "sid=" が含まれる）</span>に対して実行される場合、 </p> <p>URL パラメーター <span class="codeph"> "cs=0"</span> または<span class="codeph"> "cs=1"</span> が存在するかどうかを確認します。存在しない場合は、オーディエンスの一致率を向上させるために、これらのピクセルに <span class="codeph"> "cs=1"</span> を追加することをお勧めします。 </p> </td> 
-   <td colname="col3"> <p> DSP 同期を実行できるよう、URL パラメーター <span class="codeph"> "cs=1"</span> を Advertising Cloud ピクセルに追加します。これにより、オーディエンスの一致率が向上します。 </p> <p>Advertising Cloud Launch 拡張機能を使用すると、最も簡単にこれを実行できます。 </p> </td> 
+   <td colname="col3"> <p> DSP 同期を実行できるよう、URL パラメーター <span class="codeph"> "cs=1"</span> を Advertising Cloud ピクセルに追加します。これにより、オーディエンスの一致率が向上します。 </p> <p>これは、Platform Launch用のAdvertising Cloud拡張機能を使用すると、最も簡単に実行できます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -100,24 +100,24 @@ ht-degree: 100%
     <!--
       TE48c499b022f545c5bccc6f8bde169685 
     --> </td> 
-   <td colname="col2"> <p>同時にデプロイした場合、Launch では、ページ本文の最後で <span class="codeph">pageBottom</span> コールバック関数を定義する必要があります。 </p> <p> <p>注意：ベストプラクティスは、このタグを<span class="codeph"> &lt;body&gt;</span> 内の<i>最後</i>のタグにすることです。<span class="codeph">&lt;body&gt;</span> タグ内にある場合でも、機能する可能性はありますが、ベストプラクティスではないので、正しく機能しない場合や、予期しない結果や望ましくない結果が生じる場合があります。 </p> </p> </td> 
-   <td colname="col3"> <p>Launch で同期デプロイメントを実行するには、<span class="codeph">_satellite.pageBottom()</span> 関数が必要です。Launch が適切に機能するよう、<span class="codeph">&lt;/body&gt;</span> 終了タグの直前にインラインスクリプトを追加します。 </p> </td> 
+   <td colname="col2"> <p>Platform Launch should have a <span class="codeph"> pageBottom </span>callback function defined last in the body of the page if synchronously deployed. </p> <p> <p>注意：ベストプラクティスは、このタグを<span class="codeph"> &lt;body&gt;</span> 内の<i>最後</i>のタグにすることです。<span class="codeph">&lt;body&gt;</span> タグ内にある場合でも、機能する可能性はありますが、ベストプラクティスではないので、正しく機能しない場合や、予期しない結果や望ましくない結果が生じる場合があります。 </p> </p> </td> 
+   <td colname="col3"> <p>Platform Launch requires the <span class="codeph"> _satellite.pageBottom()</span> function for synchronous deployments. Add the inline script immediately prior to the closing <span class="codeph"> &lt;/body&gt;</span> tag to ensure proper Platform Launch functionality. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
     <!--
       1.0.1 
-    --> <p><b>Launch - 自己ホストされている</b> </p> <p>重み付け：0 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/launch/using/intro/get-started/quick-start.html" format="https" scope="external">Launch 使用の手引き</a> </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/launch/using/reference/client-side-info/asynchronous-deployment.html" format="https" scope="external">Launch の非同期デプロイメント</a> </p> </td> 
-   <td colname="col2"> <p>Launch ライブラリは、アドビの Akamai インスタンス上（<span class="filepath"> assets.adobedtm.com</span>）でホストされています。 </p> <p>Launch の読み込みには、キャッシュ制御を通じた Web サイトのパフォーマンスの制御、サードパーティスクリプトの依存関係の軽減、および公開プロセスの制御の向上を提供する自己ホスト型アプローチが推奨されます。Launch ライブラリは、お客様自身の Web ホスティングまたは CDN を使用してホストおよび管理できます。 </p> </td> 
-   <td colname="col3"> <p>Akamai CDN 経由の Launch ホスティングはほとんどの場合において機能しますが、最初のステップとして自己ホスティングを使用すると、ページのパフォーマンスが向上します。 </p> </td> 
+    --> <p><b>Launch - 自己ホストされている</b> </p> <p>重み付け：0 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Adobe Experience Platform Launchを使い始める</a> </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/launch/using/reference/client-side-info/asynchronous-deployment.html" format="https" scope="external"> プラットフォームの非同期展開の開始</a> </p> </td> 
+   <td colname="col2"> <p>The Platform Launch library is being hosted on Adobe's Akamai instance at <span class="filepath"> assets.adobedtm.com</span>. </p> <p>プラットフォーム起動の読み込みには、自己ホスティングが推奨されるアプローチです。キャッシュ制御によるWebサイトのパフォーマンス制御の向上、サードパーティスクリプトの依存関係の軽減、発行プロセスの制御の強化が可能です。 プラットフォーム起動ライブラリは、独自のWebホスティングまたはCDNを通じてホストおよび管理できます。 </p> </td> 
+   <td colname="col3"> <p>Akamai CDNを介したプラットフォーム起動ホスティングはほとんどの場合機能しますが、ページのパフォーマンスを向上させるための最初の手順として自己ホスティングを実装することをお勧めします。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
     <!--
       1.0.1 
     --> <p><b>Launch - 非同期的にデプロイする必要がある</b> </p> <p>重み付け：0 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/launch/using/intro/get-started/quick-start.html" format="https" scope="external">追加情報</a> </p> </td> 
-   <td colname="col2"> <p>最適なパフォーマンスを得るには、Launch を非同期的にデプロイする必要があります。 </p> </td> 
-   <td colname="col3"> <p>非同期的な Launch 機能が正しく動作するように、インラインスクリプトに async パラメーターを含めます </p> </td> 
+   <td colname="col2"> <p>最適なパフォーマンスを得るには、プラットフォームの起動を非同期で導入する必要があります。 </p> </td> 
+   <td colname="col3"> <p>非同期プラットフォームの起動機能が正しく動作するように、インラインスクリプトにasyncパラメーターを含めます </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
