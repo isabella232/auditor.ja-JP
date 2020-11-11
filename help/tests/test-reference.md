@@ -1,18 +1,21 @@
 ---
-description: このリファレンスでは、Auditor がおこなうテストの詳細を説明します。
-seo-description: このリファレンスでは、Auditor がおこなうテストの詳細を説明します。
+description: このリファレンスでは、Adobe Experience Platform監査が実行するテストの詳細について説明します。
+seo-description: このリファレンスでは、Adobe Experience Platform監査が実行するテストの詳細について説明します。
 seo-title: テストリファレンス
 title: テストリファレンス
 uuid: f1d0769e-a2bd-4cec-acd1-146793644895
-translation-type: ht
-source-git-commit: 78105ff6766f48f3aaccfeda281e5b4883be856a
+translation-type: tm+mt
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+workflow-type: tm+mt
+source-wordcount: '293'
+ht-degree: 84%
 
 ---
 
 
 # テストリファレンス {#test-reference}
 
-このリファレンスでは、Auditor がおこなうテストの詳細を説明します。
+このリファレンスでは、Adobe Experience Platform監査が実行するテストの詳細について説明します。
 
 **現在のテストルーブリックバージョン：** 1.0.5
 
@@ -31,7 +34,7 @@ source-git-commit: 78105ff6766f48f3aaccfeda281e5b4883be856a
 
 レベル 1 から 3 の結果を修正することを&#x200B;**お勧めします**。
 
-## Auditor はどのアドビテクノロジーを採用していますか。 {#section-52833b71c05448aaae508e6070a387f5}
+## Which Adobe technologies does Platform Auditor grade? {#section-52833b71c05448aaae508e6070a387f5}
 
 * Advertising Cloud DSP
 * Advertising Cloud 検索
@@ -45,4 +48,4 @@ source-git-commit: 78105ff6766f48f3aaccfeda281e5b4883be856a
 * Advertising Cloud Creative
 * Audience Manager
 * Campaign
-* Launch
+* Adobe Experience Platform Launch
