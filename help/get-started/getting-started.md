@@ -1,14 +1,14 @@
 ---
-description: Auditor の概要
-seo-description: Auditor の概要
+description: Adobe Experience Platform監査の概要
+seo-description: Adobe Experience Platform監査の概要
 seo-title: はじめに
 title: はじめに
 uuid: 999e0142-5a64-4202-ae09-58d22438ded7
-translation-type: ht
-source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
-workflow-type: ht
-source-wordcount: '239'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+workflow-type: tm+mt
+source-wordcount: '243'
+ht-degree: 64%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 This page is a placeholder for now, we need things like prerequisites, any planning that should be done before using Auditor, initial setup info--that kind of thing.
 -->
 
-Auditor を初めて使用する場合は、Auditor の使用許諾契約に入力し、同意する必要があります。Auditor は、Adobe と ObservePoint によって共同で開発されました。Auditor ユーザーは、追加費用なしで、ObservePoint の制限付き機能を使用できます。Auditor を使用するには、ObservePoint からのコミュニケーションをオプトインする必要があります。
+The first time you use [!DNL Adobe Experience Platform Auditor], you must complete and accept the [!DNL Platform Auditor] agreement. [!DNL Platform Auditor] との間の協力的な取り組みとして開発 [!DNL Adobe] され [!DNL ObservePoint]た Platform Auditorのユーザーは、ObservePointの機能を制限して、追加費用をかけずに使用できます。 Platform Auditorを使用するには、ObservePointからの通信をオプトインする必要があります。
 
 ## 最初のスキャンの実行 {#task-b211597afed343cfa238443fcf7c6041}
 
@@ -29,9 +29,9 @@ Auditor を初めて使用する場合は、Auditor の使用許諾契約に入�
 
    ![](assets/activate.png)
 
-1. 「Auditor」を選択し、利用条件に同意します。
+1. Select **[!UICONTROL Auditor]** and accept the Terms of Use.
 
-   Auditor ページには、以前のスキャンのダッシュボードと、新しいスキャンを実行するオプションが表示されます。
+   「Platform Auditor」ページには、以前のスキャンのダッシュボードと、新しいスキャンの実行オプションが表示されます。
 
    ![](assets/home.png)
 
