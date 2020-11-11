@@ -1,14 +1,14 @@
 ---
-description: Adobe Auditor テストに関する情報
-seo-description: Adobe Auditor テストに関する情報
+description: adobe experience platform監査人試験に関する情報
+seo-description: adobe experience platform監査人試験に関する情報
 seo-title: テストルーブリック 0.0.8
 title: テストルーブリック 0.0.8
 uuid: c62b7169-a650-4650-876f-c254eb57cb25
-translation-type: ht
-source-git-commit: 77ced60ff8e05515521d89d16c32cbad42d1e8d0
-workflow-type: ht
-source-wordcount: '1983'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+workflow-type: tm+mt
+source-wordcount: '2008'
+ht-degree: 90%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 ## アラート {#alerts}
 
-このリファレンスでは、Auditor のテストで表示されるアラートの詳細を提供します。
+このリファレンスでは、テストに関して表示されるAdobe Experience Platform監査人の警告について詳しく説明します。
 
 アラートは、認識する必要があるが、スコアには影響しない問題を示します。
 
@@ -39,7 +39,7 @@ ht-degree: 100%
    <tr> 
     <td colname="col1"> <p><b>Advertising Cloud - 正しいコンバージョンタグが実装されている</b> </p> <p>重み付け：0 </p> </td> 
     <td colname="col2"> <p>正しいコンバージョンタグが使用されているかどうかを確認します。 </p> <p> <p>警告：非推奨の TubeMogul コンバージョンタグを使用すると、データが失われる可能性があります。 </p> </p> </td> 
-    <td colname="col3"> <p>コンバージョンピクセルを新しい Advertising Cloud 画像専用コンバージョンタグにアップグレードします。 </p> <p>Advertising Cloud Launch 拡張機能を使用すると、最も容易にこれを実施できます。 </p> </td> 
+    <td colname="col3"> <p>コンバージョンピクセルを新しい Advertising Cloud 画像専用コンバージョンタグにアップグレードします。 </p> <p>これはAdobe Experience Platform LaunchのAdvertising Cloud拡張で最も簡単に実現できます。 </p> </td> 
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>Advertising Cloud - 画像専用タグ</b> </p> <p>重み付け：0 </p> </td> 
@@ -49,12 +49,12 @@ ht-degree: 100%
        <li id="li_1EEFA03516BF445294B5EC5DED891758"> <p><span class="codeph">http(s)://rtd-tm.everesttech.net/upi/?sid=&lt;HASH_VALUE&gt;</span> </p> </li> 
        <li id="li_F72206B142214217BDD34356D2F3D8AD"> <p><span class="codeph">http(s)://pixel.everesttech.net/px2/&lt;NUMERIC_ID&gt;?</span> </p> </li> 
       </ul> </p> </td> 
-    <td colname="col3"> <p>Advertising Cloud の全機能を活用できるよう、Advertising Cloud のピクセルを新しい Advertising Cloud の画像専用タグにアップグレードします。 </p> <p>Advertising Cloud Launch 拡張機能を使用すると、最も容易にこれを実施できます。 </p> </td> 
+    <td colname="col3"> <p>Advertising Cloud の全機能を活用できるよう、Advertising Cloud のピクセルを新しい Advertising Cloud の画像専用タグにアップグレードします。 </p> <p>これは、Platform Launch用のAdvertising Cloud拡張機能を使用すると、最も簡単に実行できます。 </p> </td> 
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>Advertising Cloud - セグメントピクセルの DSP 同期が有効になっている</b> </p> <p>重み付け：0 </p> </td> 
     <td colname="col2"> <p>TubeMogul セグメントピクセルに DSP 同期設定が含まれているかどうかを確認し、その設定をピクセルに追加することをお勧めします。 </p> <p>DSP Syncing 設定は、クエリ文字列パラメーターを使用して決定されるので、 </p> <p>タグが<span class="codeph"> （"https://rtd.tubemogul.com/upi/?sid=&lt;HASH_VALUE&gt;"</span> </p> <p> または <span class="codeph"> "http(s)://rtd-tm.everesttech.net/upi/?sid=&lt;HASH_VALUE&gt;"</span> </p> <p> または <span class="codeph"> "http(s)://pixel.everesttech.net/px2/&lt;NUMERIC_ID&gt;?"</span>、 </p> <p>およびタグに URL パラメーター <span class="codeph"> "sid=" が含まれる）</span>に対して実行される場合、 </p> <p>URL パラメーター <span class="codeph"> "cs=0"</span> または<span class="codeph"> "cs=1"</span> が存在するかどうかを確認します。存在しない場合は、オーディエンスの一致率を向上させるために、これらのピクセルに <span class="codeph"> "cs=1"</span> を追加することをお勧めします。 </p> </td> 
-    <td colname="col3"> <p> DSP 同期を実行できるよう、URL パラメーター <span class="codeph"> "cs=1"</span> を Advertising Cloud ピクセルに追加します。これにより、オーディエンスの一致率が向上します。 </p> <p>Advertising Cloud Launch 拡張機能を使用すると、最も簡単にこれを実行できます。 </p> </td> 
+    <td colname="col3"> <p> DSP 同期を実行できるよう、URL パラメーター <span class="codeph"> "cs=1"</span> を Advertising Cloud ピクセルに追加します。これにより、オーディエンスの一致率が向上します。 </p> <p>これは、Platform Launch用のAdvertising Cloud拡張機能を使用すると、最も簡単に実行できます。 </p> </td> 
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>DTM - pageBottom コールバックの配置</b> </p> <p>重み付け：0 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external">追加情報</a> </p> 
@@ -81,9 +81,9 @@ ht-degree: 100%
 
 ## 設定 {#configuration}
 
-このリファレンスでは、Auditor が設定で実行するテストの詳細を説明します。
+このリファレンスでは、Platform Auditorが設定で実行するテストの詳細について説明します。
 
-Auditor は、タグを他のルールおよび推奨ベストプラクティスと比較して評価します。
+Platform Auditorは、タグを他のルールおよび推奨されるベストプラクティスと比較して評価します。
 
 <table id="table_A8A1FC360482447185C8460A18426638"> 
   <thead> 
@@ -161,9 +161,9 @@ Auditor は、タグを他のルールおよび推奨ベストプラクティス
 
 ## タグの整合性 {#tag-consistency}
 
-このリファレンスでは、Auditor がタグの整合性を確認するために実行するテストの詳細を説明します。
+タグの一貫性のためにPlatform Auditorが実行するテストについて詳しく説明します。
 
-Auditor は、URL をまたいでタグの整合性を評価します。
+Platform Auditorは、タグがURL間で一貫しているかどうかを評価します。
 
 <table id="table_4F9ED873BAF741D19BFB0F297B3A1FDB"> 
   <thead> 
@@ -186,9 +186,9 @@ Auditor は、URL をまたいでタグの整合性を評価します。
 
 ## タグの有無 {#tag-presence}
 
-このリファレンスでは、Auditor がタグの有無を確認するためにおこなうテストの詳細を説明します。
+このリファレンスでは、Platform Auditorがタグを配置するために実行するテストについて詳しく説明します。
 
-Auditor では、タグの有無、およびタグがページコード内の適切な場所に配置されているかを評価します。
+Platform Auditorは、タグが存在するかどうか、およびタグがページコード内の適切な場所にあるかどうかを評価します。
 
 <table id="table_98A2E3F7B3154EEFA76D0CAE2FE97CAB"> 
   <thead> 
@@ -202,12 +202,12 @@ Auditor では、タグの有無、およびタグがページコード内の適
    <tr> 
     <td colname="col1"> <p><b>Advertising Cloud - コードの有無</b> </p> <p>重み付け：5 </p> </td> 
     <td colname="col2"> <p> Advertising Cloud タグは DOM では使用できません。 </p> </td> 
-    <td colname="col3"> <p>Advertising Cloud Launch 拡張機能を使用して、Advertising Cloud タグを実装します。 </p> </td> 
+    <td colname="col3"> <p>Platform Launch用のAdvertising Cloud拡張機能を使用して、Advertising Cloudタグを実装します。 </p> </td> 
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>Advertising Cloud - セグメントピクセルが実装されている</b> </p> <p>重み付け：5 </p> </td> 
     <td colname="col2"> <p> Advertising Cloud セグメントピクセルを新しい Advertising Cloud の画像専用コンバージョンタグにアップグレードしてください。非推奨の AMO セグメントタグを使用すると、データが失われる可能性があります。 </p> </td> 
-    <td colname="col3"> <p>Advertising Cloud Launch の拡張機能を使用して、Advertising Cloud セグメントピクセルを実装します。 </p> </td> 
+    <td colname="col3"> <p>Platform Launch用のAdvertising Cloud拡張機能を使用して、Advertising Cloudセグメントピクセルを実装します。 </p> </td> 
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>Analytics - DOM に読み込まれている</b> </p> <p>重み付け：5 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/analytics/implementation/home.html" format="https" scope="external">追加情報</a> </p> </td> 
