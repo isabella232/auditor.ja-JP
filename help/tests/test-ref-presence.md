@@ -1,23 +1,23 @@
 ---
-description: このリファレンスでは、Adobe Experience Platform監査がタグを付けて実行するテストの詳細について説明します。
-seo-description: このリファレンスでは、Adobe Experience Platform監査がタグを付けて実行するテストの詳細について説明します。
+description: このリファレンスでは、Adobe Experience Platform Auditor がタグの有無を確認するために実行するテストの詳細を説明します。
+seo-description: このリファレンスでは、Adobe Experience Platform Auditor がタグの有無を確認するために実行するテストの詳細を説明します。
 seo-title: タグの有無
 title: タグの有無
 uuid: 91aa355b-7022-431c-9837-e108b5ce604d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '958'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
 
 # タグの有無
 
-このリファレンスでは、Adobe Experience Platform監査がタグを付けて実行するテストの詳細について説明します。
+このリファレンスでは、Adobe Experience Platform Auditor がタグの有無を確認するために実行するテストの詳細を説明します。
 
-Platform Auditorは、タグが存在するかどうか、およびタグがページコード内の適切な場所にあるかどうかを評価します。
+Platform Auditor はタグの有無、およびタグがページコード内の適切な場所に配置されているかを評価します。
 
 <table id="table_98A2E3F7B3154EEFA76D0CAE2FE97CAB"> 
  <thead> 
@@ -31,12 +31,12 @@ Platform Auditorは、タグが存在するかどうか、およびタグがペ�
   <tr> 
    <td colname="col1"> <p><b>Advertising Cloud - コードの有無</b> </p> <p>重み付け：5 </p> </td> 
    <td colname="col2"> <p> Advertising Cloud タグは DOM では使用できません。 </p> </td> 
-   <td colname="col3"> <p>Adobe Experience Platform Launch用のAdvertising Cloud拡張子を使用して、Advertising Cloudタグを実装します。 </p> </td> 
+   <td colname="col3"> <p>Adobe Experience Platform Launch 用 Advertising Cloud 拡張機能を使用して、Advertising Cloud タグを実装します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Advertising Cloud - セグメントピクセルが実装されている</b> </p> <p>重み付け：5 </p> </td> 
    <td colname="col2"> <p> Advertising Cloud セグメントピクセルを新しい Advertising Cloud の画像専用コンバージョンタグにアップグレードしてください。非推奨の AMO セグメントタグを使用すると、データが失われる可能性があります。 </p> </td> 
-   <td colname="col3"> <p>Platform Launch用のAdvertising Cloud拡張機能を使用して、Advertising Cloudセグメントピクセルを実装します。 </p> </td> 
+   <td colname="col3"> <p>Platform Launch 用 Advertising Cloud 拡張機能を使用して、Advertising Cloud セグメントピクセルを実装します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Analytics - DOM に読み込まれている</b> </p> <p>重み付け：5 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/analytics/implementation/home.html" format="https" scope="external">追加情報</a> </p> </td> 
@@ -96,15 +96,15 @@ Platform Auditorは、タグが存在するかどうか、およびタグがペ�
     <!--
       1.0.5 
     --> <p><b>Launch - ライブラリが読み込まれている</b> </p> <p>重み付け：5 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/launch/using/intro/get-started/quick-start.html" format="https" scope="external">追加情報</a> </p> </td> 
-   <td colname="col2"> <p> DOM 内にグローバル _satellite オブジェクトが見つかりませんでした。プラットフォームの起動がインストールされていないか、実行に失敗しています。 </p> </td> 
-   <td colname="col3"> <p>プラットフォーム起動ライブラリがページに実装され、後続のスクリプトアクティビティによってブロックされないことを確認します。 </p> </td> 
+   <td colname="col2"> <p> DOM 内にグローバル _satellite オブジェクトが見つかりませんでした。Platform Launch がインストールされていないか、実行に失敗します。 </p> </td> 
+   <td colname="col3"> <p>ページで Platform Launch ライブラリが実装され、後続のスクリプトアクティビティによってブロックされていないことを確認します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
     <!--
       1.0.5 
     --> <p><b>Launch - 複数の埋め込みスクリプトがない</b> </p> <p>重み付け：5 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/launch/using/intro/get-started/quick-start.html" format="https" scope="external">追加情報</a> </p> </td> 
-   <td colname="col2"> <p>ページに複数の埋め込みスクリプトを読み込まないでください。実稼働サイトは、1つのプラットフォーム起動ライブラリのみを読み込む必要があります。 </p> </td> 
+   <td colname="col2"> <p>ページに複数の埋め込みスクリプトを読み込まないでください。実稼動サイトでは、1 つの Platform Launch ライブラリのみを読み込みます。 </p> </td> 
    <td colname="col3"> <p>実稼動ライブラリのみがページに読み込まれていることを確認してください。 </p> </td> 
   </tr> 
   <tr> 
@@ -112,16 +112,16 @@ Platform Auditorは、タグが存在するかどうか、およびタグがペ�
     <!--
       1.0.5 
     --> <p><b>Launch - &lt;body&gt; 内に pageBottom コールバックが存在する</b> </p> <p>重み付け：5 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/launch/using/intro/get-started/quick-start.html" format="https" scope="external">追加情報</a> </p> </td> 
-   <td colname="col2"> <p> The <span class="codeph"> _satellite.pageBottom()</span> callback was not found within the <span class="codeph"> &lt;body&gt;</span> of the page, which is required by Platform Launch. </p> <p>このテストは、<span class="codeph">pageBottom </span>コールがページで見つからない、または <span class="codeph"> &lt;head&gt;</span> タグ内（または他の予期しない場所）にある場合に失敗します。<span class="codeph">pageBottom</span> が <span class="codeph">&lt;body&gt;</span> タグ内で見つかった場合にのみ合格となります。ページ上にない場合は機能せず、他の 2 つの <span class="codeph">pageBottom</span> テストも失敗します。 </p> </td> 
-   <td colname="col3"> <p>Add the inline script immediately prior to the closing <span class="codeph"> &lt;/body&gt;</span> tag to ensure proper Platform Launch functionality. </p> </td> 
+   <td colname="col2"> <p> Platform Launch で必要な<span class="codeph"> _satellite.pageBottom()</span> コールバックが、<span class="codeph"> &lt;body&gt;</span> 内で見つかりませんでした。 </p> <p>このテストは、<span class="codeph">pageBottom </span>コールがページで見つからない、または <span class="codeph"> &lt;head&gt;</span> タグ内（または他の予期しない場所）にある場合に失敗します。<span class="codeph">pageBottom</span> が <span class="codeph">&lt;body&gt;</span> タグ内で見つかった場合にのみ合格となります。ページ上にない場合は機能せず、他の 2 つの <span class="codeph">pageBottom</span> テストも失敗します。 </p> </td> 
+   <td colname="col3"> <p>Platform Launch が適切に機能するよう、<span class="codeph">&lt;/body&gt;</span> 終了タグの直前にインラインスクリプトを追加します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
     <!--
       1.0.5 
     --> <p><b>Launch - 非同期でデプロイする場合は pageBottom コールバックを使用しない</b> </p> <p>重み付け：5 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/launch/using/intro/get-started/quick-start.html" format="https" scope="external">追加情報</a> </p> </td> 
-   <td colname="col2"> <p>The <span class="codeph"> _satellite.pageBottom()</span> callback was found on the page, which should not be the case when Platform Launch is asynchronously deployed. </p> </td> 
-   <td colname="col3"> <p>Remove the<span class="codeph"> _satellite.pageBottom()</span> script to enable proper Platform Launch functionality. </p> </td> 
+   <td colname="col2"> <p><span class="codeph">_satellite.pageBottom()</span> コールバックがページで見つかりました。Platform Launch が非同期でデプロイされている場合は、このようにはなりません。 </p> </td> 
+   <td colname="col3"> <p><span class="codeph">_satellite.pageBottom()</span> スクリプトを削除して、正しい Platform Launch 機能を有効にします。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
