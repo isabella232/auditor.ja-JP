@@ -1,19 +1,19 @@
 ---
 description: Adobe Experience Platform Auditor リリースノート
 seo-description: Adobe Experience Platform Auditor リリースノート
-seo-title: Adobe Experience Platform監査役リリースノート
-title: Adobe Experience Platform監査役リリースノート
+seo-title: Adobe Experience Platform Auditor リリースノート
+title: Adobe Experience Platform Auditor リリースノート
 uuid: 2e1eb2de-f162-45af-a9b0-15dbdac5531d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '458'
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
 
-# Adobe Experience Platform Auditor release notes{#auditor-release-notes}
+# Adobe Experience Platform Auditor リリースノート {#auditor-release-notes}
 
 ## 2019 年 2 月 6 日 {#section-f73142fd7c85492a806c7fc19a33a525}
 
@@ -29,7 +29,7 @@ ht-degree: 65%
 
 **新機能**
 
-現在実行中の監査をPlatform Auditorページ、カード表示、または新しい監査を作成しようとした場合にキャンセルできるようになりました。
+現在実行中の監査を Platform Auditor ページやカード表示から、または新しい監査の作成時にキャンセルできるようになりました。
 
 ## 2018 年 6 月 5 日 {#section-0747f36a1f4f46638b2c6bf182de9864}
 
@@ -59,18 +59,18 @@ ht-degree: 65%
 
 >[!NOTE]
 >
->Platform Auditorへのアクセスは、周期的に許可されています。 2018 年 4 月末までに、すべてのお客様がアクセスできるようになります。
+>Platform Auditor へのアクセスは、ローリング方式で許可されます。2018 年 4 月末までに、すべてのお客様がアクセスできるようになります。
 
- Platform Auditor は、Adobe Experience Cloud の実装に関する評価をおこないます。Platform Auditorを使用すると、個々にまとめて、Adobe製品からより多くの価値を得ることができます。
+ Platform Auditor は、Adobe Experience Cloud の実装に関する評価をおこないます。Platform Auditor は、アドビ製品単体で、または複数のアドビ製品をまとめてさらに活用できるよう支援します。
 
-Platform Auditorを使用すると、次のことができます。
+Platform Auditor を使用すると、次のことができます。
 
 * **スキャン**：アドビのテクノロジー用に、100 の Web ページを一度にスキャンします。必要に応じて、ページを含めたり除外したりするには、フィルター詳細設定を使用します。一度に 1 件の監査を実行できます。回数に制限はありません。
 
 * **理解**：タグの有無、設定、一貫性に基づいてアドビの実装を評価するレポートを受け取ります。
 
-* **改善**：アドビへの投資を最大限活用できるよう、実装をアップグレードする方法についてのレコメンデーションを提供します。Platform Auditorは、実装の改善方法、問題が見つかったWebページ、修正方法のガイダンスを示します。
+* **改善**：アドビへの投資を最大限活用できるよう、実装をアップグレードする方法についてのレコメンデーションを提供します。Platform Auditor は、実装をどのように改善できるかを指摘し、問題が見つかった Web ページや修正方法に関するガイダンスを正確に示します。
 
-独自の実装をトラブルシューティングおよび修正できるようにすることで、Platform Auditorは実装タグやデータをより詳細に制御できます。 これにより、実装タグに関する質問をカスタマーケアに問い合わせる必要が減ります。
+お客様が自分たちの実装をトラブルシューティングおよび修正できるようにすることで、Platform Auditor は実装タグ、ひいてはデータをより細かく制御できるようにします。これにより、実装タグに関する質問をカスタマーケアに問い合わせる必要が減ります。
 
-Platform Auditorは、AdobeとObservePointの間の協力的な取り組みとして開発されました。 Platform Auditorのユーザーは、ObservePointの機能を制限して、追加費用をかけずに使用できます。 Platform Auditorを使用するには、ObservePointからの通信をオプトインする必要があります。
+Platform Auditor は、Adobe と ObservePoint によって共同で開発されました。Platform Auditor ユーザーは、追加費用なしで、ObservePoint の制限付き機能を使用できます。Platform Auditor を使用するには、ObservePoint からのコミュニケーションをオプトインする必要があります。
