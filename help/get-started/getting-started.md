@@ -1,14 +1,14 @@
 ---
-description: Adobe Experience Platform監査の概要
-seo-description: Adobe Experience Platform監査の概要
+description: Adobe Experience Platform Auditor を使い始める
+seo-description: Adobe Experience Platform Auditor を使い始める
 seo-title: はじめに
 title: はじめに
 uuid: 999e0142-5a64-4202-ae09-58d22438ded7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '243'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -21,29 +21,29 @@ ht-degree: 64%
 This page is a placeholder for now, we need things like prerequisites, any planning that should be done before using Auditor, initial setup info--that kind of thing.
 -->
 
-The first time you use [!DNL Adobe Experience Platform Auditor], you must complete and accept the [!DNL Platform Auditor] agreement. [!DNL Platform Auditor] との間の協力的な取り組みとして開発 [!DNL Adobe] され [!DNL ObservePoint]た Platform Auditorのユーザーは、ObservePointの機能を制限して、追加費用をかけずに使用できます。 Platform Auditorを使用するには、ObservePointからの通信をオプトインする必要があります。
+[!DNL Adobe Experience Platform Auditor] を初めて使用する場合は、[!DNL Platform Auditor] の使用許諾契約に入力し、同意する必要があります。[!DNL Platform Auditor] は、[!DNL Adobe] と [!DNL ObservePoint]によって共同で開発されました。Platform Auditor ユーザーは、追加費用なしで、ObservePoint の制限付き機能を使用できます。Platform Auditor を使用するには、ObservePoint からのコミュニケーションをオプトインする必要があります。
 
 ## 最初のスキャンの実行 {#task-b211597afed343cfa238443fcf7c6041}
 
-1. Adobe Experience Cloud ナビゲーションバーの右上隅にあるメニューボタンをクリックし、 **[!UICONTROL Activation]** をクリックします。
+1. Adobe Experience Cloud ナビゲーションバーの右上隅にあるメニューボタンをクリックし、「**[!UICONTROL Activation]**」をクリックします。
 
    ![](assets/activate.png)
 
-1. Select **[!UICONTROL Auditor]** and accept the Terms of Use.
+1. 「**[!UICONTROL Auditor]**」を選択し、利用条件に同意します。
 
-   「Platform Auditor」ページには、以前のスキャンのダッシュボードと、新しいスキャンの実行オプションが表示されます。
+   Platform Auditor ページには、以前のスキャンのダッシュボードと、新しいスキャンを実行するオプションが表示されます。
 
    ![](assets/home.png)
 
-1. **[!UICONTROL New Audit]** をクリックします。
+1. 「**[!UICONTROL New Audit]**」をクリックします。
 
-   新しいスキャンを実行するには、画面の右上隅にある **[!UICONTROL New Audit]** をクリックします。
+   新しいスキャンを実行するには、画面の右上隅にある「**[!UICONTROL New Audit]**」をクリックします。
 
    ![](assets/new-audit-button.png)
 
 1. スキャンを設定します。
 
-   監査に名前を付け、開始 URL を指定して、**[!UICONTROL Run Report]** をクリックします。スキャンが完了したら、電子メール通知を受け取ります。
+   監査に名前を付け、開始 URL を指定して、「**[!UICONTROL Run Report]**」をクリックします。スキャンが完了したら、電子メール通知を受け取ります。
 
    ![](assets/config.png)
 
