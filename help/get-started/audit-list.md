@@ -4,11 +4,11 @@ seo-description: Audit List ページには、すべての監査に関する情�
 seo-title: Audit List ページ
 title: Audit List ページ
 uuid: 5b357dd3-80cb-4a76-8a19-c01f0603dfc0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '230'
-ht-degree: 49%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 49%
 
 Audit List ページには、すべての監査に関する情報が表示されます。
 
-Adobe Experience Platform監査人を開始すると、監査リストページが表示されます。 Audit List ページは、リスト表示またはカード表示として表示できます。
+Adobe Experience Platform Auditor を起動すると、監査リストページが表示されます。Audit List ページは、リスト表示またはカード表示として表示できます。
 
 ## リスト表示 {#section-a428749d2ab94a08bf460e6a486b844a}
 
@@ -27,12 +27,12 @@ Adobe Experience Platform監査人を開始すると、監査リストページ�
 
 | 項目 | 説明 |
 |---|---|
-| Audit name | 監査に与えられた名前 |
-| Starting URL | 監査がページのクロールを開始するURL |
-| Score | 監査には1 ～ 100のスコアが割り当てられます。100は、スキャンされたページに問題がないことを意味します。 |
-| Status | 監査が完了した、または処理中であることを示します |
-| Requestor | 監査を作成したユーザーの名前を表示します |
-| Actions | Provides links for copying or rerunning the audit, canceling an audit that is currently running, downloading a report as an [!DNL Excel] spreadsheet, or deleting the audit |
+| 監査名 | 監査に付けられた名前 |
+| 開始 URL | 監査がページのクロールを開始する URL |
+| スコア | 監査には 1 ～ 100 のスコアが割り当てられ、100 はスキャンされたページに問題がないことを意味します |
+| ステータス | 監査が完了した日時、または処理中であることを示します |
+| 依頼者 | 監査を作成したユーザーの名前が表示されます |
+| アクション | 監査のコピーまたは再実行、現在実行中の監査のキャンセル、[!DNL Excel] スプレッドシート形式でのレポートのダウンロード、監査の削除をおこなリンクが表示されます |
 
 監査結果を表示するには、監査の名前をクリックします。
 
@@ -42,6 +42,6 @@ Adobe Experience Platform監査人を開始すると、監査リストページ�
 
 ![](assets/card.png)
 
-監査結果を表示するには、監査の名前をクリックします。Click the menu next to the name to see links for copying, rerunning, or canceling the audit, or to download a finished report as an [!DNL Excel] spreadsheet or PDF.
+監査結果を表示するには、監査の名前をクリックします。監査のコピー、再実行、キャンセル、または完了したレポートを [!DNL Excel] スプレッドシートまたは PDF 形式でダウンロードするためのリンクを表示するには、名前の横にあるメニューをクリックします。
 
 ![](assets/card-menu.png)
