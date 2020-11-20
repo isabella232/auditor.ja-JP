@@ -1,21 +1,21 @@
 ---
-description: このリファレンスでは、Adobe Experience Platform監査が実行するテストの詳細について説明します。
-seo-description: このリファレンスでは、Adobe Experience Platform監査が実行するテストの詳細について説明します。
+description: このリファレンスでは、Adobe Experience Platform Auditor がタグの有無を確認するために実行するテストの詳細を説明します。
+seo-description: このリファレンスでは、Adobe Experience Platform Auditor がタグの有無を確認するために実行するテストの詳細を説明します。
 seo-title: テストリファレンス
 title: テストリファレンス
 uuid: f1d0769e-a2bd-4cec-acd1-146793644895
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '293'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
 
 # テストリファレンス {#test-reference}
 
-このリファレンスでは、Adobe Experience Platform監査が実行するテストの詳細について説明します。
+このリファレンスでは、Adobe Experience Platform Auditor がタグの有無を確認するために実行するテストの詳細を説明します。
 
 **現在のテストルーブリックバージョン：** 1.0.5
 
@@ -34,7 +34,7 @@ ht-degree: 84%
 
 レベル 1 から 3 の結果を修正することを&#x200B;**お勧めします**。
 
-## Which Adobe technologies does Platform Auditor grade? {#section-52833b71c05448aaae508e6070a387f5}
+## Platform Auditor はどのアドビテクノロジーを採用していますか。 {#section-52833b71c05448aaae508e6070a387f5}
 
 * Advertising Cloud DSP
 * Advertising Cloud 検索
