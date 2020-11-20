@@ -1,23 +1,23 @@
 ---
-description: このリファレンスでは、タグの一貫性に関して、Adobe Experience Platform監査が実行するテストについて詳しく説明します。
-seo-description: このリファレンスでは、タグの一貫性に関して、Adobe Experience Platform監査が実行するテストについて詳しく説明します。
+description: このリファレンスでは、Adobe Experience Platform Auditor がタグの整合性を確認するために実行するテストの詳細を説明します。
+seo-description: このリファレンスでは、Adobe Experience Platform Auditor がタグの整合性を確認するために実行するテストの詳細を説明します。
 seo-title: タグの整合性
 title: タグの整合性
 uuid: 16271dd6-3587-4f33-92f8-54ec4a3d6469
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '123'
-ht-degree: 52%
+ht-degree: 100%
 
 ---
 
 
 # タグの整合性
 
-このリファレンスでは、タグの一貫性に関して、Adobe Experience Platform監査が実行するテストについて詳しく説明します。
+このリファレンスでは、Adobe Experience Platform Auditor がタグの整合性を確認するために実行するテストの詳細を説明します。
 
-Platform Auditorの整合性テストでは、スキャンされたすべてのページに一貫性がないかどうかを確認します。 これらの値や設定は、正確なデータ収集をおこなうために、サイト上のすべてのページで同じにする必要があります。
+Platform Auditor の整合性テストでは、スキャンされたすべてのページで矛盾を探します。これらの値や設定は、正確なデータ収集をおこなうために、サイト上のすべてのページで同じにする必要があります。
 
 <table id="table_4F9ED873BAF741D19BFB0F297B3A1FDB"> 
  <thead> 
