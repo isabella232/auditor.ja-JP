@@ -4,11 +4,11 @@ seo-description: Include フィルターは、Starting URL から監査でクロ
 seo-title: Include フィルターと Exclude フィルター
 title: Include フィルターと Exclude フィルター
 uuid: 477fc38c-7351-42dd-8209-2fb7549ee34c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '808'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Include フィルターと Exclude フィルターは、監査のガイドライ
 
 Include フィルター、Exclude フィルター、またはその両方を適用すると、監査でクロールの対象となるリンクに関する指示を提供できます。
 
-Any item in the [!UICONTROL Include Filters] field restricts the scan to only the pages that match that item. Any item in an [!UICONTROL Exclude Filters] field prevents any pages that match that item from being scanned.
+[!UICONTROL Include フィールド]の項目は、スキャン対象を、その項目と一致するページのみに制限します。[!UICONTROL Exclude フィールド]の項目は、その項目と一致するページがスキャンされるのを防ぎます。
 
 Include フィルターと Exclude フィルターには、有効なページと一致する完全な URL、URL の一部、または正規表現を使用できます。
 
@@ -53,7 +53,7 @@ Include フィルターと Exclude フィルターには、有効なページと
 
 ## Starting URL {#section-ccb46abcd96f4a8ab171245015d2b724}
 
-開始URLには1ページが必要です。 Starting URL は、常に他の URL より前に訪問されます。開始ページから検出されたリンクは訪問対象となり、Include フィルターと Exclude フィルターが適用されます。「Exclude」項目が Starting URL と一致する場合、その項目は無視されます。
+Adobe Experience Platform Auditor では、Starting URL に単一のページを指定する必要があります。Starting URL は、常に他の URL より前に訪問されます。開始ページから検出されたリンクは訪問対象となり、Include フィルターと Exclude フィルターが適用されます。「Exclude」項目が Starting URL と一致する場合、その項目は無視されます。
 
 ## Include フィルター {#section-7626060a56a24b658f8c05f031ac3f5f}
 
@@ -76,9 +76,9 @@ Include フィルターに URL または正規表現を含むフィルターに�
 
 これにより、Starting URL ページにあるすべてのリンクが訪問の対象となります。Starting URL から任意のサブドメインのページを照合します。
 
-デフォルトの Include フィルターを使用すると、監査で幅広い範囲をクロールできます。特定のセクションまたはページに移動するには、このボックスにフィルターを追加して、監査に対する具体的な指示を与えます。その場合は、デフォルト値を監査でスキャンするディレクトリに置き換えます。また、「フィルターを含める」を使用すると、あるドメインで監査を開始し、別のドメインで監査を終了する必要がある場合に、クロスドメイン監査を実行できます。 これをおこなうには、トラバースするドメインを入力します。いずれにしても、「含む」フィルターURLが見つかるには、監査対象のページでURLを検出する必要があります。
+デフォルトの Include フィルターを使用すると、監査で幅広い範囲をクロールできます。特定のセクションまたはページに移動するには、このボックスにフィルターを追加して、監査に対する具体的な指示を与えます。その場合は、デフォルト値を監査でスキャンするディレクトリに置き換えます。また、Include フィルターを使用して、あるドメインで監査を開始し、別のドメインで監査を終了するクロスドメイン監査を実行することもできます。これをおこなうには、トラバースするドメインを入力します。いずれの場合も、Include フィルター URL を見つけるには、監査対象のページで URL を検出する必要があります。
 
-「含める」フィルターには、正確なURL、部分的なURLまたは正規式を含めることができます。 例えば、Starting URL が [!DNL http://mysite.com] の場合、次のページはデフォルトでスキャン対象になります（太字に注意してください）。
+Include フィルターには、正確な URL、URL の一部または正規表現を含めることができます。例えば、Starting URL が [!DNL http://mysite.com] の場合、次のページはデフォルトでスキャン対象になります（太字に注意してください）。
 
 ```html
 http://mysite.com
@@ -100,9 +100,9 @@ Exclude フィルターを使用すると、URL を監査できなくなりま�
 
 ## フィルターと URL のテスト {#section-3cfa125b1756411395a64701e128efa0}
 
-Platform Auditor内でフィルターとURLをテストできます。
+Platform Auditor 内でフィルターと URL をテストできます。
 
-監査の作成時に、 **[!UICONTROL Test Advanced Filters]** をクリックします。フィルターと URL を入力し、 **[!UICONTROL Apply]** をクリックします。
+監査の作成時に、「**[!UICONTROL Test Advanced Filters]**」をクリックします。フィルターと URL を入力し、「**[!UICONTROL Apply]**」をクリックします。
 
 ![](assets/test-advanced-filters.png)
 
