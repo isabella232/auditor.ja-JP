@@ -4,11 +4,11 @@ seo-description: テストを実行すると、スコアカードには、監査
 seo-title: スコアカード
 title: スコアカード
 uuid: a765cd6a-d3d6-4438-9621-d7899385a518
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '432'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 91%
 
 テストを実行すると、スコアカードには、監査に関する情報が表示されます。
 
-[Adobe Experience Platform監査]ページで監査名をクリックして、テストの結果を表示します。
+Adobe Experience Platform Auditor ページで監査の名前をクリックして、テストの結果を表示します。
 
 ![](assets/report.png)
 
@@ -50,7 +50,7 @@ ht-degree: 91%
 
 スコアカードには、修正を&#x200B;**推奨**&#x200B;する点としてレベル 1 ～ 3 の問題が表示されます。
 
-**[!UICONTROL Download the Report]** をクリックして、監査によってレポートされた情報を含む または PDF ファイルをダウンロードします。[!DNL Excel]
+「**[!UICONTROL Download the Report]**」をクリックして、監査によってレポートされた情報を含む [!DNL Excel] または PDF ファイルをダウンロードします。
 
 各カテゴリのスコアに加えて、修正を推奨または強く推奨される点、およびテストに合格した項目がスコアカードに表示されます。それぞれの問題をクリックすると、右側のボックスに追加の詳細が表示されます。もう一度クリックしてさらにドリルダウンし、問題の修正方法に関する推奨事項を確認します。上記のスコアカードにおける推奨される問題の詳細は次のとおりです。
 
@@ -62,4 +62,4 @@ ht-degree: 91%
 
 テストに合格または不合格となった URL のリストを確認できます。
 
-From the scorecard, click a test name or the **[!UICONTROL See All]** link under each category heading. これにより、テストの詳細が表示されます。各テストについて、テストの説明と、合格または不合格となった URL のリストを確認できます。この情報は、ダウンロードしたレポートにも含まれます。
+スコアカードで、テスト名または各カテゴリ見出しの下の「**[!UICONTROL See All]**」リンクをクリックします。これにより、テストの詳細が表示されます。各テストについて、テストの説明と、合格または不合格となった URL のリストを確認できます。この情報は、ダウンロードしたレポートにも含まれます。
