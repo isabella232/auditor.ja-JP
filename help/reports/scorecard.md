@@ -4,11 +4,11 @@ seo-description: テストを実行すると、スコアカードには、監査
 seo-title: スコアカード
 title: スコアカード
 uuid: a765cd6a-d3d6-4438-9621-d7899385a518
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: ht
-source-wordcount: '432'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
