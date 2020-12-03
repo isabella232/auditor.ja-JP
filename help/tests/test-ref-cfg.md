@@ -4,11 +4,11 @@ seo-description: このリファレンスでは、Adobe Experience Platform Audi
 seo-title: 設定
 title: 設定
 uuid: d40d815c-edfe-48b9-921f-cea1b0b54a0a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: ht
-source-wordcount: '846'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
