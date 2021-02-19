@@ -7,8 +7,8 @@ uuid: bd6798bb-3fab-4091-9e07-d3d1e5fdd087
 translation-type: tm+mt
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '517'
+ht-degree: 100%
 
 ---
 
