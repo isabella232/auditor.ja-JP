@@ -4,14 +4,14 @@ seo-description: このリファレンスでは、Adobe Experience Platform Audi
 seo-title: タグの有無
 title: タグの有無
 uuid: 91aa355b-7022-431c-9837-e108b5ce604d
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+exl-id: a6ac4d95-2f96-4abb-b39b-4dd0d8df5fe8
+translation-type: ht
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
+workflow-type: ht
 source-wordcount: '958'
 ht-degree: 100%
 
 ---
-
 
 # タグの有無
 
@@ -58,12 +58,12 @@ Platform Auditor はタグの有無、およびタグがページコード内の
    <td colname="col3"> <p>実稼動ライブラリのみがページに読み込まれていることを確認してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>DTM - &lt;body&gt; 内に pageBottom コールバックが存在する</b> </p> <p>重み付け：5 </p> <p><a href="https://docs.adobe.com/content/help/en/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external">追加情報</a> </p> </td> 
+   <td colname="col1"> <p><b>DTM - &lt;body&gt; 内に pageBottom コールバックが存在する</b> </p> <p>重み付け：5 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external">追加情報</a> </p> </td> 
    <td colname="col2"> <p> Dynamic Tag Management で必要な<span class="codeph"> _satellite.pageBottom()</span> コールバックが、<span class="codeph"> &lt;body&gt;</span> 内で見つかりませんでした。 </p> <p>このテストは、<span class="codeph">pageBottom </span>コールがページで見つからない、または <span class="codeph"> &lt;head&gt;</span> タグ内（または他の予期しない場所）にある場合に失敗します。<span class="codeph">pageBottom</span> が <span class="codeph">&lt;body&gt;</span> タグ内で見つかった場合にのみ合格となります。ページ上にない場合は機能せず、他の 2 つの <span class="codeph">pageBottom</span> テストも失敗します。 </p> </td> 
    <td colname="col3"> <p>DTM が適切に機能するよう、<span class="codeph">&lt;/body&gt;</span> 終了タグの直前にインラインスクリプトを追加します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>DTM - pageBottom タグが実行された</b> </p> <p>重み付け：5 </p> <p><a href="https://docs.adobe.com/content/help/en/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external">追加情報</a> </p> </td> 
+   <td colname="col1"> <p><b>DTM - pageBottom タグが実行された</b> </p> <p>重み付け：5 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external">追加情報</a> </p> </td> 
    <td colname="col2"> <p> DTM <code> pageBottom</code> タグが検出されませんでした。 </p> <p><code> if (false) {_satellite.pageBottom()}</code> と似た結果になる <code> if</code> ステートメント内で呼び出しが行われた場合に発生する可能性がありますしたがって、タグが存在し、正しく配置されている場合でも、タグは起動しない可能性があります。 </p> </td> 
    <td colname="col3"> <p>各ページに DTM <code> pageBottom</code> 呼び出しをインストールします。 </p> </td> 
   </tr> 
@@ -103,7 +103,7 @@ Platform Auditor はタグの有無、およびタグがページコード内の
    <td colname="col1"> 
     <!--
       1.0.5 
-    --> <p><b>Launch - 複数の埋め込みスクリプトがない</b> </p> <p>重み付け：5 </p> <p><a href="https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html" format="https" scope="external">追加情報</a> </p> </td> 
+    --> <p><b>Launch - 複数の埋め込みスクリプトがない</b> </p> <p>重み付け：5 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/launch/using/intro/get-started/quick-start.html" format="https" scope="external">追加情報</a> </p> </td> 
    <td colname="col2"> <p>ページに複数の埋め込みスクリプトを読み込まないでください。実稼動サイトでは、1 つの Platform Launch ライブラリのみを読み込みます。 </p> </td> 
    <td colname="col3"> <p>実稼動ライブラリのみがページに読み込まれていることを確認してください。 </p> </td> 
   </tr> 
@@ -111,7 +111,7 @@ Platform Auditor はタグの有無、およびタグがページコード内の
    <td colname="col1"> 
     <!--
       1.0.5 
-    --> <p><b>Launch - &lt;body&gt; 内に pageBottom コールバックが存在する</b> </p> <p>重み付け：5 </p> <p><a href="https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html" format="https" scope="external">追加情報</a> </p> </td> 
+    --> <p><b>Launch - &lt;body&gt; 内に pageBottom コールバックが存在する</b> </p> <p>重み付け：5 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/launch/using/intro/get-started/quick-start.html" format="https" scope="external">追加情報</a> </p> </td> 
    <td colname="col2"> <p> Platform Launch で必要な<span class="codeph"> _satellite.pageBottom()</span> コールバックが、<span class="codeph"> &lt;body&gt;</span> 内で見つかりませんでした。 </p> <p>このテストは、<span class="codeph">pageBottom </span>コールがページで見つからない、または <span class="codeph"> &lt;head&gt;</span> タグ内（または他の予期しない場所）にある場合に失敗します。<span class="codeph">pageBottom</span> が <span class="codeph">&lt;body&gt;</span> タグ内で見つかった場合にのみ合格となります。ページ上にない場合は機能せず、他の 2 つの <span class="codeph">pageBottom</span> テストも失敗します。 </p> </td> 
    <td colname="col3"> <p>Platform Launch が適切に機能するよう、<span class="codeph">&lt;/body&gt;</span> 終了タグの直前にインラインスクリプトを追加します。 </p> </td> 
   </tr> 
@@ -119,7 +119,7 @@ Platform Auditor はタグの有無、およびタグがページコード内の
    <td colname="col1"> 
     <!--
       1.0.5 
-    --> <p><b>Launch - 非同期でデプロイする場合は pageBottom コールバックを使用しない</b> </p> <p>重み付け：5 </p> <p><a href="https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html" format="https" scope="external">追加情報</a> </p> </td> 
+    --> <p><b>Launch - 非同期でデプロイする場合は pageBottom コールバックを使用しない</b> </p> <p>重み付け：5 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/launch/using/intro/get-started/quick-start.html" format="https" scope="external">追加情報</a> </p> </td> 
    <td colname="col2"> <p><span class="codeph">_satellite.pageBottom()</span> コールバックがページで見つかりました。Platform Launch が非同期でデプロイされている場合は、このようにはなりません。 </p> </td> 
    <td colname="col3"> <p><span class="codeph">_satellite.pageBottom()</span> スクリプトを削除して、正しい Platform Launch 機能を有効にします。 </p> </td> 
   </tr> 
@@ -132,7 +132,7 @@ Platform Auditor はタグの有無、およびタグがページコード内の
    <td colname="col3"> <p>最新バージョンの Target（at.js）をインストールします。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Target - &lt;head&gt; でライブラリが読み込まれました</b> </p> <p>重み付け：4 </p> <p><a href="https://docs.adobe.com/content/help/en/target/using/implement-target/implementing-target.html" format="html" scope="external">追加情報</a> </p> </td> 
+   <td colname="col1"> <p><b>Target - &lt;head&gt; でライブラリが読み込まれました</b> </p> <p>重み付け：4 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/target/using/implement-target/implementing-target.html" format="html" scope="external">追加情報</a> </p> </td> 
    <td colname="col2"> <p> Target ライブラリは、<span class="codeph">&lt;head&gt;</span> タグに読み込まれます。 </p> </td> 
    <td colname="col3"> <p> Target ライブラリが <span class="codeph">&lt;head&gt;</span> タグに読み込まれていることを確認してください。 </p> </td> 
   </tr> 
