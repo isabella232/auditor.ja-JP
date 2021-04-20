@@ -4,18 +4,18 @@ seo-description: Adobe Experience Platform Auditor リリースノート
 seo-title: Adobe Experience Platform Auditor リリースノート
 title: Adobe Experience Platform Auditor リリースノート
 uuid: 2e1eb2de-f162-45af-a9b0-15dbdac5531d
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+exl-id: 7c8c55ed-6211-446b-9182-2e9b49dd117d
+translation-type: ht
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
+workflow-type: ht
 source-wordcount: '458'
 ht-degree: 100%
 
 ---
 
-
 # Adobe Experience Platform Auditor リリースノート {#auditor-release-notes}
 
-## 2019 年 2 月 6 日 {#section-f73142fd7c85492a806c7fc19a33a525}
+## 2019 年 2 月 6 日（PT）{#section-f73142fd7c85492a806c7fc19a33a525}
 
 **機能強化**
 
@@ -25,13 +25,13 @@ ht-degree: 100%
 >
 >この増加に伴い、スキャンの完了に要する時間が長くなります。500 ページのスキャンを完了するまでに最大 48 時間かかる場合があります。
 
-## 2018 年 11 月 3 日 {#section-542a32872efa445dab688285bf87964b}
+## 2018 年 11 月 3 日（PT）{#section-542a32872efa445dab688285bf87964b}
 
 **新機能**
 
 現在実行中の監査を Platform Auditor ページやカード表示から、または新しい監査の作成時にキャンセルできるようになりました。
 
-## 2018 年 6 月 5 日 {#section-0747f36a1f4f46638b2c6bf182de9864}
+## 2018 年 6 月 5 日（PT）{#section-0747f36a1f4f46638b2c6bf182de9864}
 
 **新機能**
 
@@ -45,7 +45,7 @@ ht-degree: 100%
 
 ユーザーが IMS 組織の管理者である場合は、シェルに「管理」リンクが表示されていることを確認します
 
-## 2018 年 5 月 18 日 {#section-b72792e4e6ad4bd9910f48767704e204}
+## 2018 年 5 月 18 日（PT）{#section-b72792e4e6ad4bd9910f48767704e204}
 
 **新機能**
 
@@ -55,7 +55,7 @@ ht-degree: 100%
 * 監査レポートを PDF 形式でダウンロードする機能を追加しました。
 * 完了した監査の監査設定に、テストルーブリックのバージョン番号が追加されました。
 
-## 初回リリース（2018 年 3 月 23 日） {#section-dcc4cd58353b48369d1e994a05a71a29}
+## 初回リリース（2018 年 3 月 23 日（PT））{#section-dcc4cd58353b48369d1e994a05a71a29}
 
 >[!NOTE]
 >
