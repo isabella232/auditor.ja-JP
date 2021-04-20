@@ -4,14 +4,14 @@ seo-description: このリファレンスでは、Adobe Experience Platform Audi
 seo-title: アラート
 title: アラート
 uuid: 8f05b3c1-2427-4691-a88f-1de98f120a02
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+exl-id: 9e7ade9b-6f3c-4f1f-87b1-5dbaed63ae36
+translation-type: ht
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
+workflow-type: ht
 source-wordcount: '936'
 ht-degree: 100%
 
 ---
-
 
 # アラート {#alerts}
 
@@ -107,7 +107,7 @@ ht-degree: 100%
    <td colname="col1"> 
     <!--
       1.0.1 
-    --> <p><b>Launch - 自己ホストされている</b> </p> <p>重み付け：0 </p> <p><a href="https://adobe.com/go/launch_help_get_started" format="https" scope="external">Adobe Experience Platform Launch の概要</a> </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/launch/using/reference/client-side-info/asynchronous-deployment.html" format="https" scope="external">Platform Launch の非同期デプロイメント</a> </p> </td> 
+    --> <p><b>Launch - 自己ホストされている</b> </p> <p>重み付け：0 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/launch/using/intro/get-started/quick-start.html" format="https" scope="external">Adobe Experience Platform Launch の概要</a> </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/launch/using/reference/client-side-info/asynchronous-deployment.html" format="https" scope="external">Platform Launch の非同期デプロイメント</a> </p> </td> 
    <td colname="col2"> <p>Platform Launch ライブラリは、アドビの Akamai インスタンス上（<span class="filepath">assets.adobedtm.com</span>）でホストされています。 </p> <p>Platform Launch の読み込みには、キャッシュ制御を通じた Web サイトのパフォーマンスの制御、サードパーティスクリプトの依存関係の軽減、および公開プロセスの制御の向上を提供する自己ホスト型アプローチが推奨されます。Platform Launch ライブラリは、お客様自身の Web ホスティングまたは CDN を使用してホストおよび管理できます。 </p> </td> 
    <td colname="col3"> <p>Akamai CDN 経由の Platform Launch ホスティングはほとんどの場合において機能しますが、最初のステップとして自己ホスティングを使用すると、ページのパフォーマンスが向上します。 </p> </td> 
   </tr> 
@@ -115,7 +115,7 @@ ht-degree: 100%
    <td colname="col1"> 
     <!--
       1.0.1 
-    --> <p><b>Launch - 非同期的にデプロイする必要がある</b> </p> <p>重み付け：0 </p> <p><a href="https://adobe.com/go/launch_help_get_started" format="https" scope="external">追加情報</a> </p> </td> 
+    --> <p><b>Launch - 非同期的にデプロイする必要がある</b> </p> <p>重み付け：0 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/launch/using/intro/get-started/quick-start.html" format="https" scope="external">追加情報</a> </p> </td> 
    <td colname="col2"> <p>最適なパフォーマンスを得るには、Platform Launch を非同期的にデプロイする必要があります。 </p> </td> 
    <td colname="col3"> <p>非同期的な Platform Launch 機能が正しく動作するように、インラインスクリプトに async パラメーターを含めます </p> </td> 
   </tr> 
@@ -129,4 +129,3 @@ ht-degree: 100%
   </tr> 
  </tbody> 
 </table>
-
