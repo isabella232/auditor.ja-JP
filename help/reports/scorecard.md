@@ -4,14 +4,14 @@ seo-description: テストを実行すると、スコアカードには、監査
 seo-title: スコアカード
 title: スコアカード
 uuid: a765cd6a-d3d6-4438-9621-d7899385a518
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+exl-id: a2ccaf7d-744f-42f0-8193-1c6a93f7a09a
+translation-type: ht
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
+workflow-type: ht
 source-wordcount: '432'
 ht-degree: 100%
 
 ---
-
 
 # スコアカード {#scorecard}
 
@@ -58,7 +58,7 @@ Adobe Experience Platform Auditor ページで監査の名前をクリックし�
 
 画面上部のカテゴリをクリックして、各カテゴリで見つかった問題を確認します。
 
-## テストの対象となったページはどれですか。 {#section-fd38ffeb868648e89c34c5772fa65f46}
+## テストの対象となったページはどれですか。{#section-fd38ffeb868648e89c34c5772fa65f46}
 
 テストに合格または不合格となった URL のリストを確認できます。
 
