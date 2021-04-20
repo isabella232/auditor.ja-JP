@@ -4,14 +4,14 @@ seo-description: Adobe Experience Platform Auditor のテストに関する情�
 seo-title: テストルーブリック 0.0.8
 title: テストルーブリック 0.0.8
 uuid: c62b7169-a650-4650-876f-c254eb57cb25
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+exl-id: 0313e271-5664-4a34-9e3c-8cb1c61d8b93
+translation-type: ht
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
+workflow-type: ht
 source-wordcount: '2008'
 ht-degree: 100%
 
 ---
-
 
 # テストルーブリック 0.0.8 {#test-rubric}
 
@@ -145,12 +145,12 @@ Platform Auditor は、タグを他のルールおよび推奨ベストプラク
     <td colname="col3"> <p>最新バージョンの Target ライブラリをインストールしてください。 </p> </td> 
    </tr> 
    <tr> 
-    <td colname="col1"> <p><b>Target - mboxDefault は mboxCreate よりも優先される</b> </p> <p>重み付け：5 </p> <p><a href="https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/functions-overview/mboxcreate-atjs.html" format="html" scope="external">追加情報</a> </p> </td> 
+    <td colname="col1"> <p><b>Target - mboxDefault は mboxCreate よりも優先される</b> </p> <p>重み付け：5 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/target/using/implement-target/client-side/functions-overview/mboxcreate-atjs.html" format="html" scope="external">追加情報</a> </p> </td> 
     <td colname="col2"> <p><span class="codeph"> mboxCreate</span> の適切な使用方法は次のようになります。 </p> <p> <span class="codeph"> &lt;div class="mboxDefault"&gt;&lt;! -顧客コンテンツ--&gt;&lt;/div&gt;&lt;script&gt;mboxCreate('myMboxName')&lt;/script&gt;</span> </p> </td> 
     <td colname="col3"> <p><span class="codeph"> mboxCreate()</span> を呼び出す前に、必ず<span class="codeph"> &lt;div class="mboxDefault"&gt;&lt;/div&gt;</span> タグを含めてください。at.js による追加はおこなわれません。 </p> </td> 
    </tr> 
    <tr> 
-    <td colname="col1"> <p><b>Target - 有効な DOCTYPE</b> </p> <p>重み付け：5 </p> <p><a href="https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/functions-overview/mboxcreate-atjs.html" format="html" scope="external">追加情報</a> </p> </td> 
+    <td colname="col1"> <p><b>Target - 有効な DOCTYPE</b> </p> <p>重み付け：5 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/target/using/implement-target/client-side/functions-overview/mboxcreate-atjs.html" format="html" scope="external">追加情報</a> </p> </td> 
     <td colname="col2"> <p> 無効な DOCTYPE が検出されました。このシナリオでは、mbox は起動されません。 </p> <p>at.js の場合、DOCTYPE は標準モードである必要があります。そうしないと、Target は動作しません。 </p> </td> 
     <td colname="col3"> <p>ページ上の DOCTYPE を更新します。 </p> </td> 
    </tr> 
@@ -175,7 +175,7 @@ Platform Auditor は、URL をまたいでタグの整合性を評価します�
   </thead>
   <tbody> 
    <tr> 
-    <td colname="col1"> <p><b>Analytics - コードバージョンが一貫している</b> </p> <p>重み付け：5 </p> <p><a href="https://docs.adobe.com/content/help/en/analytics/implementation/home.html" format="html" scope="external">追加情報</a> </p> </td> 
+    <td colname="col1"> <p><b>Analytics - コードバージョンが一貫している</b> </p> <p>重み付け：5 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/analytics/implementation/home.html" format="html" scope="external">追加情報</a> </p> </td> 
     <td colname="col2"> <p> 複数のバージョンの Analytics コードが見つかりました。 </p> </td> 
     <td colname="col3"> <p>Analytics のすべてのインスタンスを最新のバージョンに置き換えてください。 </p> </td> 
    </tr> 
@@ -210,7 +210,7 @@ Platform Auditor では、タグの有無、およびタグがページコード
     <td colname="col3"> <p>Platform Launch 用 Advertising Cloud 拡張機能を使用して、Advertising Cloud セグメントピクセルを実装します。 </p> </td> 
    </tr> 
    <tr> 
-    <td colname="col1"> <p><b>Analytics - DOM に読み込まれている</b> </p> <p>重み付け：5 </p> <p><a href="https://docs.adobe.com/content/help/en/analytics/implementation/home.html" format="https" scope="external">追加情報</a> </p> </td> 
+    <td colname="col1"> <p><b>Analytics - DOM に読み込まれている</b> </p> <p>重み付け：5 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/analytics/implementation/home.html" format="https" scope="external">追加情報</a> </p> </td> 
     <td colname="col2"> <p> Adobe Analytics タグが検出されませんでした。 </p> </td> 
     <td colname="col3"> <p>最新バージョンの Analytics をインストールしてください。 </p> </td> 
    </tr> 
@@ -218,7 +218,7 @@ Platform Auditor では、タグの有無、およびタグがページコード
     <td colname="col1"> <p><b>DTM - ライブラリが読み込まれている</b> </p> <p>重み付け：5 </p> <p>追加情報: </p> <p> 
       <ul id="ul_7E706EBC2E4649A69732E6982E116E22"> 
        <li id="li_9AF0257E39C347A9AE6D8D8FFBD66B38"><a href="https://docs.adobe.com/content/help/ja-JP/dtm/using/admin/c-troubleshooting.html" format="html" scope="external">DTM のトラブルシューティング</a> </li> 
-       <li id="li_7B422BCCD2654B0A9059799FB5276BE8"><a href="https://docs.adobe.com/content/help/en/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external"> ヘッダーおよびフッターコードの追加</a> </li> 
+       <li id="li_7B422BCCD2654B0A9059799FB5276BE8"><a href="https://docs.adobe.com/content/help/ja-JP/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external"> ヘッダーおよびフッターコードの追加</a> </li> 
       </ul> </p> </td> 
     <td colname="col2"> <p> DOM 内にグローバル _satellite オブジェクトが見つかりませんでした。Dynamic Tag Management がインストールされていないか、実行に失敗します。 </p> </td> 
     <td colname="col3"> <p>ページで DTM ライブラリが実装され、後続のスクリプトアクティビティによってブロックされていないことを確認します。 </p> </td> 
@@ -229,17 +229,17 @@ Platform Auditor では、タグの有無、およびタグがページコード
     <td colname="col3"> <p>実稼動ライブラリのみがページに読み込まれていることを確認してください。 </p> </td> 
    </tr> 
    <tr> 
-    <td colname="col1"> <p><b>DTM - &lt;body&gt; 内に pageBottom コールバックが存在する</b> </p> <p>重み付け：5 </p> <p><a href="https://docs.adobe.com/content/help/en/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external">追加情報</a> </p> </td> 
+    <td colname="col1"> <p><b>DTM - &lt;body&gt; 内に pageBottom コールバックが存在する</b> </p> <p>重み付け：5 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external">追加情報</a> </p> </td> 
     <td colname="col2"> <p> Dynamic Tag Management で必要な<span class="codeph"> _satellite.pageBottom()</span> コールバックが、<span class="codeph"> &lt;body&gt;</span> 内で見つかりませんでした。 </p> <p>このテストは、<span class="codeph">pageBottom </span>コールがページで見つからない、または <span class="codeph"> &lt;head&gt;</span> タグ内（または他の予期しない場所）にある場合に失敗します。<span class="codeph">pageBottom</span> が <span class="codeph">&lt;body&gt;</span> タグ内で見つかった場合にのみ合格となります。ページ上にない場合は機能せず、他の 2 つの <span class="codeph">pageBottom</span> テストも失敗します。 </p> </td> 
     <td colname="col3"> <p>DTM が適切に機能するよう、<span class="codeph">&lt;/body&gt;</span> 終了タグの直前にインラインスクリプトを追加します。 </p> </td> 
    </tr> 
    <tr> 
-    <td colname="col1"> <p><b>DTM - pageBottom タグが実行された</b> </p> <p>重み付け：5 </p> <p><a href="https://docs.adobe.com/content/help/en/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external">追加情報</a> </p> </td> 
+    <td colname="col1"> <p><b>DTM - pageBottom タグが実行された</b> </p> <p>重み付け：5 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external">追加情報</a> </p> </td> 
     <td colname="col2"> <p> DTM <span class="codeph">pageBottom</span> タグが検出されませんでした。 </p> <p><span class="codeph"> if (false) {_satellite.pageBottom()}</span> と似た結果になる <span class="codeph"> if</span> ステートメント内で呼び出しが行われた場合に発生する可能性がありますしたがって、タグが存在し、正しく配置されている場合でも、タグは起動しない可能性があります。 </p> </td> 
     <td colname="col3"> <p>各ページに DTM <span class="codeph">pageBottom</span> 呼び出しをインストールします。 </p> </td> 
    </tr> 
    <tr> 
-    <td colname="col1"> <p><b>Experience Cloud ID サービス - Cookie の有無</b> </p> <p>重み付け：5 </p> <p><a href="https://docs.adobe.com/content/help/en/dtm/using/tools/macid.html" format="html" scope="external">追加情報</a> </p> </td> 
+    <td colname="col1"> <p><b>Experience Cloud ID サービス - Cookie の有無</b> </p> <p>重み付け：5 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/dtm/using/tools/macid.html" format="html" scope="external">追加情報</a> </p> </td> 
     <td colname="col2"> <p> <span class="codeph">AMCV_</span> cookie が見つかりませんでした。訪問者オブジェクトは、<span class="codeph">VisitorAPI.js</span> コードからインスタンス化する必要があります。 </p> </td> 
     <td colname="col3"> <p> DTM 実装の場合は、AdobeOrg ID が MCID ツールに正しく入力されていることを確認します。 </p> </td> 
    </tr> 
