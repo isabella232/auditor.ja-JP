@@ -4,14 +4,14 @@ seo-description: Adobe Experience Platform Auditor を使い始める
 seo-title: はじめに
 title: はじめに
 uuid: 999e0142-5a64-4202-ae09-58d22438ded7
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+exl-id: 597413c9-8725-4745-bd89-cdc52848b0a0
+translation-type: ht
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
+workflow-type: ht
 source-wordcount: '243'
 ht-degree: 100%
 
 ---
-
 
 # はじめに {#getting-started}
 
