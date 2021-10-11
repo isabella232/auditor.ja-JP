@@ -7,9 +7,9 @@ user-guide-title: Experience Platform Auditor ヘルプ
 user-guide-description: Adobe Experience Cloud の実装状況を評価し、改善方法を示すレポートを生成します。
 breadcrumb-title: Platform Auditor ガイド
 source-git-commit: 482974cda68b97d2ab7bc9420837ec38a65e45c0
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '74'
+ht-degree: 100%
 
 ---
 
