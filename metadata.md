@@ -1,19 +1,11 @@
 ---
 cloud: Experience Cloud
 solution: Experience Platform, Data Collection
-solution-title: ラーニングとサポート
-solution-hub-url: https://helpx.adobe.com/jp/support/experience-cloud/core-services.html
-solution-image: help/assets/experience-cloud-logo-24.png
-getting-started-title: はじめに
-getting-started-url: https://helpx.adobe.com/jp/experience-cloud-core-services/get-started.html
-tutorials-title: チュートリアル
-tutorials-url: https://helpx.adobe.com/jp/analytics/how-to/adobe-launch-publishing-process.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/auditor.ja-JP
-index: true
-translation-type: ht
-source-git-commit: 5dbbd05323172302682643de2e8ea867e2e186c6
-workflow-type: ht
-source-wordcount: '134'
+hide: true
+source-git-commit: 09d2d6e0764bdf799d2105f62bfc53cd5bfefe7f
+workflow-type: tm+mt
+source-wordcount: '111'
 ht-degree: 100%
 
 ---
@@ -21,7 +13,7 @@ ht-degree: 100%
 
 # 社内用のメタデータ
 
-metadata.md ファイルにはリポジトリー内のユーザーガイド TOC.md ファイルから渡される repo-level メタデータが含まれています。任意のユーザーガイドの metadata.md コンテンツを変更したい場合は、任意の TOC.md ファイル内でおこないます。
+metadata.md ファイルには、リポジトリー内にあるユーザーガイドの TOC.md ファイルにパススルーされる、リポジトリーレベルのメタデータが含まれています。任意のユーザーガイドの metadata.md コンテンツを変更したい場合は、任意の TOC.md ファイル内でおこないます。
 
 | メタデータ | 説明 |
 |--- |--- |
