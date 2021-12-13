@@ -4,7 +4,7 @@ solution: Experience Platform, Data Collection
 git-repo: https://git.corp.adobe.com/AdobeDocs/auditor.ja-JP
 hide: true
 source-git-commit: 09d2d6e0764bdf799d2105f62bfc53cd5bfefe7f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '111'
 ht-degree: 100%
 
