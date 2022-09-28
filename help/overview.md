@@ -2,10 +2,9 @@
 title: Adobe Experience Platform Auditor の概要
 description: このドキュメントでは、Adobe Experience Platform Auditor とその後継システムについて説明します。
 uuid: 346132cb-d78d-4573-8edd-dbaa4c3bb05d
-exl-id: 326ae443-2974-4f0c-8c16-bfd2b8a6a70c
-source-git-commit: 9876e66a70de679cf9eadb8fcc911cccf9308f88
+source-git-commit: 3dfe542bb4c1046efdf33243dc1ce922a2629e61
 workflow-type: ht
-source-wordcount: '101'
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
