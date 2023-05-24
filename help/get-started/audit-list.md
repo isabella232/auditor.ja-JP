@@ -1,19 +1,18 @@
 ---
 description: Audit List ページには、すべての監査に関する情報が表示されます。
-seo-description: Audit List ページには、すべての監査に関する情報が表示されます。
-seo-title: Audit List ページ
+seo-description: The Audit List page shows information about all of your audits.
+seo-title: Audit List page
 title: Audit List ページ
 uuid: 5b357dd3-80cb-4a76-8a19-c01f0603dfc0
 exl-id: 2ba22dc7-f296-461e-90d4-1cb330bcde24
-translation-type: ht
 source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
-workflow-type: ht
-source-wordcount: '230'
+workflow-type: tm+mt
+source-wordcount: '216'
 ht-degree: 100%
 
 ---
 
-# Audit List ページ {#audit-list-page}
+# Audit List ページ{#audit-list-page}
 
 Audit List ページには、すべての監査に関する情報が表示されます。
 

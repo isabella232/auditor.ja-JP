@@ -1,19 +1,18 @@
 ---
 description: このレポートは、各 URL の合格または不合格を示します。
-seo-description: このレポートは、各 URL の合格または不合格を示します。
-seo-title: ダウンロードレポート
+seo-description: The report shows whether each URL passes or fails.
+seo-title: Download report
 title: ダウンロードレポート
 uuid: cd5c4db8-e647-4311-9abb-98dd3bbc7ef8
 exl-id: 2b072b7a-0de3-47f2-be38-9d82bd7da807
-translation-type: ht
 source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
-workflow-type: ht
-source-wordcount: '131'
+workflow-type: tm+mt
+source-wordcount: '120'
 ht-degree: 100%
 
 ---
 
-# ダウンロードレポート {#download-report}
+# ダウンロードレポート{#download-report}
 
 このレポートは、各 URL の合格または不合格を示します。
 

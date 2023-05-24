@@ -1,14 +1,13 @@
 ---
 description: このリファレンスでは、Adobe Experience Platform Auditor が設定を確認するために実行するテストの詳細を説明します。
-seo-description: このリファレンスでは、Adobe Experience Platform Auditor が設定を確認するために実行するテストの詳細を説明します。
-seo-title: 設定
+seo-description: This reference provides more information about the tests Adobe Experience Platform Auditor performs for configuration.
+seo-title: Configuration
 title: 設定
 uuid: d40d815c-edfe-48b9-921f-cea1b0b54a0a
 exl-id: e331d874-09f5-4a31-ad8c-6ee5d0849245
-translation-type: ht
 source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
-workflow-type: ht
-source-wordcount: '846'
+workflow-type: tm+mt
+source-wordcount: '830'
 ht-degree: 100%
 
 ---

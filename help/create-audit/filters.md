@@ -1,19 +1,18 @@
 ---
 description: Include フィルターは、Starting URL から監査でクロールできるリンクを制限します。Exclude フィルターは、監査でリンクがクロールされるのを防ぎます。
-seo-description: Include フィルターは、Starting URL から監査でクロールできるリンクを制限します。Exclude フィルターは、監査でリンクがクロールされるのを防ぎます。
-seo-title: Include フィルターと Exclude フィルター
+seo-description: Include filters restrict what links an audit can crawl from the Starting URL. Exclude filters prevent an audit from crawling links.
+seo-title: Include and Exclude filters
 title: Include フィルターと Exclude フィルター
 uuid: 477fc38c-7351-42dd-8209-2fb7549ee34c
 exl-id: d6bb1191-62ce-4292-913d-8c42b9136626
-translation-type: ht
 source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
-workflow-type: ht
-source-wordcount: '808'
+workflow-type: tm+mt
+source-wordcount: '783'
 ht-degree: 100%
 
 ---
 
-# Include フィルターと Exclude フィルター {#include-and-exclude-filters}
+# Include フィルターと Exclude フィルター{#include-and-exclude-filters}
 
 Include フィルターは、Starting URL から監査でクロールできるリンクを制限します。Exclude フィルターは、監査でリンクがクロールされるのを防ぎます。
 
@@ -51,7 +50,7 @@ Include フィルターと Exclude フィルターには、有効なページと
 
    上の画像では、Exclude フィルターを追加すると、対象のリンクから URL が除外されます。現在は、監査でスキャンできるリンクは 3 つだけです。
 
-## Starting URL {#section-ccb46abcd96f4a8ab171245015d2b724}
+## 開始 URL {#section-ccb46abcd96f4a8ab171245015d2b724}
 
 Adobe Experience Platform Auditor では、Starting URL に単一のページを指定する必要があります。Starting URL は、常に他の URL より前に訪問されます。開始ページから検出されたリンクは訪問対象となり、Include フィルターと Exclude フィルターが適用されます。「Exclude」項目が Starting URL と一致する場合、その項目は無視されます。
 

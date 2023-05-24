@@ -1,19 +1,18 @@
 ---
 description: Adobe Experience Platform Auditor は、デジタル実装の検証を専門とする ObservePoint と共同開発された、Adobe Experience Platform のサービスです。
-seo-description: Adobe Experience Platform Auditor は、デジタル実装の検証を専門とする ObservePoint と共同開発された、Adobe Experience Platform のサービスです。
+seo-description: Adobe Experience Platform Auditor is a service of the Adobe Experience Platform that was co-developed with ObservePoint, experts in validating digital implementations.
 seo-title: Adobe Experience Platform Auditor
-title: Adobe Experience Platform監査人
+title: Adobe Experience Platform Auditor
 uuid: 346132cb-d78d-4573-8edd-dbaa4c3bb05d
-translation-type: tm+mt
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '399'
 ht-degree: 100%
 
 ---
 
 
-# Adobe Experience Platform Auditor {#adobe-experience-cloud-auditor}
+# Adobe Experience Platform Auditor{#adobe-experience-cloud-auditor}
 
 Adobe Experience Platform Auditor は、デジタル実装の検証を専門とする ObservePoint と共同開発された、Adobe Experience Platform のサービスです。
 

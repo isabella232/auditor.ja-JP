@@ -1,14 +1,13 @@
 ---
 description: このリファレンスでは、Adobe Experience Platform Auditor がタグの有無を確認するために実行するテストの詳細を説明します。
-seo-description: このリファレンスでは、Adobe Experience Platform Auditor がタグの有無を確認するために実行するテストの詳細を説明します。
-seo-title: タグの有無
+seo-description: This reference provides more information about the tests Adobe Experience Platform Auditor performs for tag presence.
+seo-title: Tag presence
 title: タグの有無
 uuid: 91aa355b-7022-431c-9837-e108b5ce604d
 exl-id: a6ac4d95-2f96-4abb-b39b-4dd0d8df5fe8
-translation-type: ht
 source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
-workflow-type: ht
-source-wordcount: '958'
+workflow-type: tm+mt
+source-wordcount: '940'
 ht-degree: 100%
 
 ---
